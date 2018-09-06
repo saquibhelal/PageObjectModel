@@ -19,8 +19,8 @@ public class TestUtil extends TestBase{
 	public static long PAGE_LOAD_TIMEOUT= 25;
 	public static long IMPLICIT_WAIT= 15;
 	
-	public static String TESTDATA_SHEET_PATH="E:\\Icam_Automation_Test_QA\\IcamTest\\src\\main"
-			+ "\\java\\com\\icam\\qa\\testdata\\iCAM_Data_Sheet.xlsx";
+	public static String TESTDATA_SHEET_PATH="C:\\Users\\User\\git\\PageObjectModel\\IcamTest\\src\\main\\java"
+			+ "\\com\\icam\\qa\\testdata\\iCAM_Data_Sheet.xlsx";
 	
 	
 	

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50187" started-at="2018-09-05T08:08:11Z" finished-at="2018-09-05T08:09:01Z">
+  <suite name="Default suite" duration-ms="47068" started-at="2018-09-06T05:44:49Z" finished-at="2018-09-06T05:45:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50187" started-at="2018-09-05T08:08:11Z" finished-at="2018-09-05T08:09:01Z">
+    <test name="Default test" duration-ms="47068" started-at="2018-09-06T05:44:49Z" finished-at="2018-09-06T05:45:36Z">
       <class name="com.icam.qa.testcases.CreateStandardTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="setUp" is-config="true" duration-ms="20930" started-at="2018-09-05T08:08:11Z" finished-at="2018-09-05T08:08:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="setUp" is-config="true" duration-ms="16535" started-at="2018-09-06T05:44:49Z" finished-at="2018-09-06T05:45:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="standardCreationTest(java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="standardCreationTest" duration-ms="8342" started-at="2018-09-05T08:08:34Z" data-provider="getIcamSheetData" finished-at="2018-09-05T08:08:42Z">
+        <test-method status="PASS" signature="standardCreationTest(java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="standardCreationTest" duration-ms="9220" started-at="2018-09-06T05:45:09Z" data-provider="getIcamSheetData" finished-at="2018-09-06T05:45:18Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- standardCreationTest -->
-        <test-method status="PASS" signature="standardCreationTest(java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="standardCreationTest" duration-ms="8537" started-at="2018-09-05T08:08:42Z" data-provider="getIcamSheetData" finished-at="2018-09-05T08:08:51Z">
+        <test-method status="PASS" signature="standardCreationTest(java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="standardCreationTest" duration-ms="8290" started-at="2018-09-06T05:45:18Z" data-provider="getIcamSheetData" finished-at="2018-09-06T05:45:26Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- standardCreationTest -->
-        <test-method status="PASS" signature="standardCreationTest(java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="standardCreationTest" duration-ms="7901" started-at="2018-09-05T08:08:51Z" data-provider="getIcamSheetData" finished-at="2018-09-05T08:08:59Z">
+        <test-method status="PASS" signature="standardCreationTest(java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="standardCreationTest" duration-ms="8201" started-at="2018-09-06T05:45:26Z" data-provider="getIcamSheetData" finished-at="2018-09-06T05:45:34Z">
           <params>
             <param index="0">
               <value>
@@ -59,34 +59,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- standardCreationTest -->
-        <test-method status="FAIL" signature="validateList()[pri:2, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="validateList" duration-ms="1623" started-at="2018-09-05T08:08:59Z" finished-at="2018-09-05T08:09:00Z">
+        <test-method status="FAIL" signature="validateList()[pri:2, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="validateList" duration-ms="1167" started-at="2018-09-06T05:45:34Z" finished-at="2018-09-06T05:45:36Z">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[invalid selector: Unable to locate an element with the xpath expression //*[@id='datatable-tabletools']/tbody/tr[ because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id='datatable-tabletools']/tbody/tr[' is not a valid XPath expression.
-  (Session info: chrome=69.0.3497.72)
+  (Session info: chrome=69.0.3497.81)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-UUE2DNC', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.72, webStorageEnabled: true}
-Session ID: 25c5835acf87df9d9897f2fa20be0532
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.81, webStorageEnabled: true}
+Session ID: 1d1de0ae1ebe47824f8c73b921d96dfb
 *** Element info: {Using=xpath, value=//*[@id='datatable-tabletools']/tbody/tr[}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id='datatable-tabletools']/tbody/tr[ because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id='datatable-tabletools']/tbody/tr[' is not a valid XPath expression.
-  (Session info: chrome=69.0.3497.72)
+  (Session info: chrome=69.0.3497.81)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-UUE2DNC', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.72, webStorageEnabled: true}
-Session ID: 25c5835acf87df9d9897f2fa20be0532
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.81, webStorageEnabled: true}
+Session ID: 1d1de0ae1ebe47824f8c73b921d96dfb
 *** Element info: {Using=xpath, value=//*[@id='datatable-tabletools']/tbody/tr[}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -144,7 +144,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateList -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="tearDown" is-config="true" duration-ms="699" started-at="2018-09-05T08:09:00Z" finished-at="2018-09-05T08:09:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateStandardTest@598067a5]" name="tearDown" is-config="true" duration-ms="756" started-at="2018-09-06T05:45:36Z" finished-at="2018-09-06T05:45:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -48,7 +48,7 @@ public class CreateStandard extends TestBase {
 			String ExpValue=element.getText();
 			System.out.println(element.getText());
 			if(element.getText().equals(ExpValue)){
-			System.out.println("Student name:"+element.getText()+"is found");
+			System.out.println("Standard:"+element.getText()+"is found");
 			break;
 
 		   }
