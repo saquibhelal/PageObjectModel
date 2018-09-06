@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.icam.qa.base.TestBase;
 
+// @Author Saquib
 public class CreateStandard extends TestBase {
 
 	@FindBy(css="#standardName")
