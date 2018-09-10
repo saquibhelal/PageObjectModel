@@ -11,7 +11,7 @@ import com.icam.qa.base.TestBase;
 
 public class CommodityPO extends TestBase{
 	
-	
+	// @Author Saquib
 	@FindBy(how=How.XPATH,using="//select[@id='departmentCode']")
 	 WebElement depCode;
 	

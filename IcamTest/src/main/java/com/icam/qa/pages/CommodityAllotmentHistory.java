@@ -12,6 +12,7 @@ import com.icam.qa.base.TestBase;
 public class CommodityAllotmentHistory extends TestBase{
 	
 	
+	// @Author Saquib
 	@FindBy(how=How.CSS,using="#commodityCode")
 	 WebElement commodity;
 	

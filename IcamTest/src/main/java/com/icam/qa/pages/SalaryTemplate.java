@@ -12,6 +12,7 @@ import com.icam.qa.base.TestBase;
 
 public class SalaryTemplate extends TestBase {
 
+	// @Author Saquib
 	HighlightElement highLight;
 	
 	@FindBy(how=How.CSS,using="#designationType")

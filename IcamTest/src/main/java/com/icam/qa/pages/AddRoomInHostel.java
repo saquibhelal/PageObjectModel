@@ -12,6 +12,7 @@ import com.icam.qa.base.TestBase;
 
 public class AddRoomInHostel extends TestBase {
 
+	// @Author Saquib
 	@FindBy(css="#hostelName")
 	WebElement hstlName;
 	

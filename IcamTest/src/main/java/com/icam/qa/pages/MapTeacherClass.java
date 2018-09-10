@@ -10,7 +10,7 @@ import com.icam.qa.base.TestBase;
 public class MapTeacherClass extends TestBase {
 	
 	
-	
+	// @Author Saquib
 	@FindBy(xpath="//select[@name='teacherId']")
 	WebElement tchrName;
 	

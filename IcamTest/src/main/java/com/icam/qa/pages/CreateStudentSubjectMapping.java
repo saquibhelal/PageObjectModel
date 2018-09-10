@@ -10,6 +10,7 @@ import com.icam.qa.base.TestBase;
 
 public class CreateStudentSubjectMapping extends TestBase {
 
+	// @Author Saquib
 	@FindBy(css="#course")
 	WebElement course;
 	

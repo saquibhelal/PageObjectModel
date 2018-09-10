@@ -13,6 +13,7 @@ import com.icam.qa.base.TestBase;
 
 public class SubjectMapping extends TestBase {
 	
+	// @Author Saquib
 	HighlightElement highLight;
 	
 	@FindBy(linkText="Standard Subject Mapping")

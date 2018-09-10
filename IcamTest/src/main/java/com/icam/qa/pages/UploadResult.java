@@ -12,6 +12,7 @@ import com.icam.qa.base.TestBase;
 
 public class UploadResult extends TestBase {
 	
+	// @Author Saquib
 	@FindBy(xpath="//select[@name='standard']")
 	WebElement uploadResult;
 	

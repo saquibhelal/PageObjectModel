@@ -12,6 +12,7 @@ import com.icam.qa.base.TestBase;
 
 public class BookCatalog extends TestBase {
 
+	// @Author Saquib
 	@FindBy(css="#bookCategoryCode")
 	WebElement bookCatageory;
 	

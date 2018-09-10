@@ -10,6 +10,7 @@ import com.icam.qa.base.TestBase;
 
 public class SalaryBreakUp extends TestBase {
 
+	// @Author Saquib
 	@FindBy(css="#newSalaryBreakUpName")
 	WebElement salaryName;
 	

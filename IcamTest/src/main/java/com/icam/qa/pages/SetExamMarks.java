@@ -10,6 +10,7 @@ import com.icam.qa.base.TestBase;
 
 public class SetExamMarks extends TestBase {
 	
+	// @Author Saquib
 	@FindBy(css="#standard")
 	WebElement starndard;
 	

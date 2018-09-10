@@ -11,6 +11,7 @@ import com.icam.qa.base.TestBase;
 
 public class AddNewVendor extends TestBase {
 	
+	// @Author Saquib
 	HighlightElement highLight;
 	
 	@FindBy(css="#vendorName")

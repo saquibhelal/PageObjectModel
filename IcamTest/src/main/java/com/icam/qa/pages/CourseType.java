@@ -11,6 +11,7 @@ import com.icam.qa.base.TestBase;
 
 public class CourseType extends TestBase {
 	
+	// @Author Saquib
 	HighlightElement highLight;
 
 	@FindBy(how=How.CSS,using="#courseTypeName") public 

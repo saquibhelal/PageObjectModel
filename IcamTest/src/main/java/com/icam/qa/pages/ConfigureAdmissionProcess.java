@@ -11,6 +11,7 @@ import com.icam.qa.base.TestBase;
 
 public class ConfigureAdmissionProcess extends TestBase {
 
+	// @Author Saquib
 	@FindBy(how=How.CSS,using="#formFees")
 	WebElement formmFees;
 	

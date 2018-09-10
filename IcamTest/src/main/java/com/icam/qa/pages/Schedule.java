@@ -14,6 +14,7 @@ import com.icam.qa.base.TestBase;
 
 public class Schedule extends TestBase{
 
+	// @Author Saquib
 	HighlightElement highLight;
 	
 	@FindBy(how=How.CSS,using="#firstName")

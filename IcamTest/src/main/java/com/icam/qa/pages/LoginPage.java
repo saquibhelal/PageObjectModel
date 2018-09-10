@@ -8,6 +8,7 @@ import com.icam.qa.base.TestBase;
 
 public class LoginPage extends TestBase {
 	
+	// @Author Saquib
 	// Page Factory - OR:
 	@FindBy(name="userId")
 	WebElement userId;

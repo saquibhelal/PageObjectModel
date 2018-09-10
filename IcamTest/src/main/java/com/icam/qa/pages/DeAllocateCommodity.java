@@ -11,6 +11,7 @@ import com.icam.qa.base.TestBase;
 
 public class DeAllocateCommodity extends TestBase {
 
+	// @Author Saquib
 	@FindBy(how=How.CSS,using="#commodityCode")
 	WebElement commCode;
 	

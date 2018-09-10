@@ -11,6 +11,7 @@ import com.icam.qa.base.TestBase;
 
 public class CurrentOpening extends TestBase{
 	
+	// @Author Saquib
 	HighlightElement highLight;
 
 	@FindBy(xpath="//input[@value='Course-CODE-CLS-3']")

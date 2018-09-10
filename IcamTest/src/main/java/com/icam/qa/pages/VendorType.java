@@ -9,6 +9,7 @@ import com.icam.qa.base.TestBase;
 
 public class VendorType extends TestBase {
 	
+	// @Author Saquib
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	@FindBy(css=".nav-parent.nav-expanded>a>span")

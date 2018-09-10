@@ -9,7 +9,7 @@ import com.icam.qa.base.TestBase;
 
 public class TeacherList extends TestBase {
 	
-	
+	// @Author Saquib
 	@FindBy(linkText="Details")
 	WebElement details;
 	

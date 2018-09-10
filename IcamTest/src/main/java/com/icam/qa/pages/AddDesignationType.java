@@ -9,7 +9,7 @@ import com.icam.qa.base.TestBase;
 
 public class AddDesignationType extends TestBase {
 	
-	
+	// @Author Saquib
 	@FindBy(css="#designationTypeName")
 	WebElement desigType;
 	

@@ -11,6 +11,7 @@ import com.icam.qa.base.TestBase;
 
 public class AssignAmount extends TestBase {
 	
+	// @Author Saquib
 	HighlightElement highLight;
 	
 	@FindBy(linkText="Assign Amount")

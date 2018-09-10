@@ -10,6 +10,7 @@ import com.icam.qa.base.TestBase;
 
 public class CreateCategoryRecipient extends TestBase {
 	
+	// @Author Saquib
 	@FindBy(xpath="//select[@id='category']")
 	WebElement catName;
 	

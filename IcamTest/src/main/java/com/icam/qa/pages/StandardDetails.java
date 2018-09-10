@@ -10,6 +10,7 @@ import com.icam.qa.base.TestBase;
 
 public class StandardDetails extends TestBase {
 	
+	// @Author Saquib
 	@FindBy(linkText="Enter Standard Details")
 	WebElement standardDetailsLink;
 	

@@ -10,6 +10,7 @@ import com.icam.qa.base.TestBase;
 
 public class CommodityDetails extends TestBase{
 
+	// @Author Saquib
 	@FindBy(css="#commodityCode")
 	WebElement comdty;
 	

@@ -11,6 +11,7 @@ import com.icam.qa.base.TestBase;
 
 public class AddHostelRoomType extends TestBase {
 
+	// @Author Saquib
 	@FindBy(how=How.CSS,using="#roomTypeName")
 	@CacheLookup WebElement roomType;
 	

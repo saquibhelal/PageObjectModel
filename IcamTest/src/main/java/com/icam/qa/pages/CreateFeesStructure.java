@@ -10,7 +10,7 @@ import com.icam.qa.base.TestBase;
 
 public class CreateFeesStructure extends TestBase {
 	
-	
+	// @Author Saquib
 	@FindBy(linkText="Office Administration")
 	WebElement officeAdminLink;
 	
