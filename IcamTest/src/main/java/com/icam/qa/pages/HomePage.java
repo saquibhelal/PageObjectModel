@@ -367,6 +367,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Upload Question Papers")
 	WebElement uploadQstnPpr;
+	
+	@FindBy(linkText="Upload Assignment")
+	WebElement uploadAssign;
 	/*****************************************************************************************/
 	
 	public HomePage(){
@@ -810,6 +813,11 @@ public class HomePage extends TestBase {
 		
 	}
 	
-	
+	public void clickOnUploadAssignment(){
+		academicLink.click();
+		examLink.click();
+		uploadAssign.click();
+		
+	}
 	
 }
