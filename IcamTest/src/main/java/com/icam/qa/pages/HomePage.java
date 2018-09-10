@@ -362,6 +362,11 @@ public class HomePage extends TestBase {
 	@FindBy(linkText="Create Category Recipient")
 	WebElement catRecipient;
 	
+	@FindBy(linkText="Examination")
+	WebElement examLink;
+	
+	@FindBy(linkText="Upload Question Papers")
+	WebElement uploadQstnPpr;
 	/*****************************************************************************************/
 	
 	public HomePage(){
@@ -798,7 +803,12 @@ public class HomePage extends TestBase {
 		catRecipient.click();
 	}
 	
-	
+	public void clickOnUploadQuestionPaper(){
+		academicLink.click();
+		examLink.click();
+		uploadQstnPpr.click();
+		
+	}
 	
 	
 	
