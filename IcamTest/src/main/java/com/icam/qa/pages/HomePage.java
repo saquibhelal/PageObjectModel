@@ -371,6 +371,12 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Upload Assignment")
 	WebElement uploadAssign;
+	
+	@FindBy(linkText="Promotional Exam")
+	WebElement promotionalExam;
+	
+	@FindBy(linkText="Set Promotional Exam")
+	WebElement setPExam;
 	/*****************************************************************************************/
 	
 	public HomePage(){
@@ -820,5 +826,17 @@ public class HomePage extends TestBase {
 		uploadAssign.click();
 		
 	}
+	
+	public void clickOnSetPromotionalExamLink(){
+		academicLink.click();
+		promotionalExam.click();
+		setPExam.click();
+		
+	}
+	
+	
+	
+	
+	
 	
 }
