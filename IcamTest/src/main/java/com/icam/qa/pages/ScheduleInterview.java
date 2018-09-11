@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 import com.icam.qa.base.HighlightElement;
 import com.icam.qa.base.TestBase;
 
-public class Schedule extends TestBase{
+public class ScheduleInterview extends TestBase{
 
 	// @Author Saquib
 	HighlightElement highLight;
@@ -51,7 +51,7 @@ public class Schedule extends TestBase{
 	WebElement submit;
 	
 	
-	public Schedule(){
+	public ScheduleInterview(){
 		PageFactory.initElements(driver, this);
 	}
 	

@@ -9,24 +9,24 @@ import org.testng.asserts.SoftAssert;
 import com.icam.qa.base.TestBase;
 import com.icam.qa.pages.HomePage;
 import com.icam.qa.pages.LoginPage;
-import com.icam.qa.pages.Schedule;
+import com.icam.qa.pages.ScheduleInterview;
 import com.icam.qa.util.TestUtil;
 
-public class ScheduleTest extends TestBase {
+public class ScheduleInterviewTest extends TestBase {
 
 	LoginPage loginPage;
 	HomePage homePage;
-	Schedule schedule;
+	ScheduleInterview schedule;
 	String sheetName="Schedule";
 	
-	public ScheduleTest(){
+	public ScheduleInterviewTest(){
 		super();
 	}
 	
 	@BeforeClass
 	public void setUp(){
 		initializationBrowser();
-		schedule=new Schedule();
+		schedule=new ScheduleInterview();
 		loginPage= new LoginPage();
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));
 	}
