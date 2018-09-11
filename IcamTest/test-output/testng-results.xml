@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33764" started-at="2018-09-11T09:06:37Z" finished-at="2018-09-11T09:07:11Z">
+  <suite name="Default suite" duration-ms="32144" started-at="2018-09-11T09:38:37Z" finished-at="2018-09-11T09:39:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33764" started-at="2018-09-11T09:06:37Z" finished-at="2018-09-11T09:07:11Z">
-      <class name="com.icam.qa.testcases.GenerateConsolidateMarksTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.GenerateConsolidateMarksTest@52e6fdee]" name="setUp" is-config="true" duration-ms="28289" started-at="2018-09-11T09:06:37Z" finished-at="2018-09-11T09:07:05Z">
+    <test name="Default test" duration-ms="32144" started-at="2018-09-11T09:38:37Z" finished-at="2018-09-11T09:39:09Z">
+      <class name="com.icam.qa.testcases.NominalRollListTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.NominalRollListTest@52e6fdee]" name="setUp" is-config="true" duration-ms="28212" started-at="2018-09-11T09:38:37Z" finished-at="2018-09-11T09:39:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="generateConMark()[pri:0, instance:com.icam.qa.testcases.GenerateConsolidateMarksTest@52e6fdee]" name="generateConMark" duration-ms="5406" started-at="2018-09-11T09:07:05Z" finished-at="2018-09-11T09:07:11Z">
+        <test-method status="PASS" signature="NominalRollLstTest()[pri:0, instance:com.icam.qa.testcases.NominalRollListTest@52e6fdee]" name="NominalRollLstTest" duration-ms="3880" started-at="2018-09-11T09:39:05Z" finished-at="2018-09-11T09:39:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- generateConMark -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.GenerateConsolidateMarksTest@52e6fdee]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-11T09:07:11Z" finished-at="2018-09-11T09:07:11Z">
+        </test-method> <!-- NominalRollLstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.NominalRollListTest@52e6fdee]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-11T09:39:09Z" finished-at="2018-09-11T09:39:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.GenerateConsolidateMarksTest -->
+      </class> <!-- com.icam.qa.testcases.NominalRollListTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

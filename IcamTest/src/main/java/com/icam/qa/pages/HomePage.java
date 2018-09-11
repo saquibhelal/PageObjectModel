@@ -389,6 +389,12 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Generate Consolidated Marksheet")
 	WebElement genConMark;
+	
+	@FindBy(linkText="General Report")
+	WebElement genReport;
+	
+	@FindBy(linkText="Nominal Roll List")
+	WebElement nomRollLst;
 	/*****************************************************************************************/
 	
 	public HomePage(){
@@ -858,6 +864,11 @@ public class HomePage extends TestBase {
 		genConMark.click();
 	}
 	
+	public void clickOnNominalRollListLink(){
+		reportLink.click();
+		genReport.click();
+		nomRollLst.click();
+	}
 	
 	
 	
