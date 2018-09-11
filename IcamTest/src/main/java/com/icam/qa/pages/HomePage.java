@@ -386,6 +386,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Generate Student Marksheet")
 	WebElement genStdMrk;
+	
+	@FindBy(linkText="Generate Consolidated Marksheet")
+	WebElement genConMark;
 	/*****************************************************************************************/
 	
 	public HomePage(){
@@ -849,6 +852,11 @@ public class HomePage extends TestBase {
 		genStdMrk.click();
 	}
 	
+	public void clickOnGenerateConsolidateMarks(){
+		reportLink.click();
+		academicRprt.click();
+		genConMark.click();
+	}
 	
 	
 	

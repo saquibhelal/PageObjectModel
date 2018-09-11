@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29137" started-at="2018-09-10T09:50:54Z" finished-at="2018-09-10T09:51:23Z">
+  <suite name="Default suite" duration-ms="33764" started-at="2018-09-11T09:06:37Z" finished-at="2018-09-11T09:07:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29137" started-at="2018-09-10T09:50:54Z" finished-at="2018-09-10T09:51:23Z">
-      <class name="com.icam.qa.testcases.UploadAssignmentTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.UploadAssignmentTest@57fffcd7]" name="setUp" is-config="true" duration-ms="19728" started-at="2018-09-10T09:50:54Z" finished-at="2018-09-10T09:51:14Z">
+    <test name="Default test" duration-ms="33764" started-at="2018-09-11T09:06:37Z" finished-at="2018-09-11T09:07:11Z">
+      <class name="com.icam.qa.testcases.GenerateConsolidateMarksTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.GenerateConsolidateMarksTest@52e6fdee]" name="setUp" is-config="true" duration-ms="28289" started-at="2018-09-11T09:06:37Z" finished-at="2018-09-11T09:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="uploadAssignTest()[pri:0, instance:com.icam.qa.testcases.UploadAssignmentTest@57fffcd7]" name="uploadAssignTest" duration-ms="9362" started-at="2018-09-10T09:51:14Z" finished-at="2018-09-10T09:51:23Z">
+        <test-method status="PASS" signature="generateConMark()[pri:0, instance:com.icam.qa.testcases.GenerateConsolidateMarksTest@52e6fdee]" name="generateConMark" duration-ms="5406" started-at="2018-09-11T09:07:05Z" finished-at="2018-09-11T09:07:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadAssignTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.UploadAssignmentTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-10T09:51:23Z" finished-at="2018-09-10T09:51:23Z">
+        </test-method> <!-- generateConMark -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.GenerateConsolidateMarksTest@52e6fdee]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-11T09:07:11Z" finished-at="2018-09-11T09:07:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.UploadAssignmentTest -->
+      </class> <!-- com.icam.qa.testcases.GenerateConsolidateMarksTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
