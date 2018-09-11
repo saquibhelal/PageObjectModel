@@ -10,7 +10,7 @@ import com.icam.qa.base.TestBase;
 
 public class SetPromotionalExam extends TestBase{
 	
-	
+	//@Author Saquib
 	@FindBy(xpath="//*[@id='course']")
 	WebElement progName;
 	

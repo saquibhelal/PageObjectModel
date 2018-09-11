@@ -377,6 +377,15 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Set Promotional Exam")
 	WebElement setPExam;
+	
+	@FindBy(xpath="//*[@id='menu']/ul/li[13]/a")
+	WebElement reportLink;
+	
+	@FindBy(linkText="New Academic Report")
+	WebElement academicRprt;
+	
+	@FindBy(linkText="Generate Student Marksheet")
+	WebElement genStdMrk;
 	/*****************************************************************************************/
 	
 	public HomePage(){
@@ -834,6 +843,11 @@ public class HomePage extends TestBase {
 		
 	}
 	
+	public void clickOnGenerateStudentMarksheetLink(){
+		reportLink.click();
+		academicRprt.click();
+		genStdMrk.click();
+	}
 	
 	
 	
