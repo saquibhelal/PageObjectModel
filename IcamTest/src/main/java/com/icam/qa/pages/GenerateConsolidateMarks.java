@@ -10,6 +10,7 @@ import com.icam.qa.base.TestBase;
 
 public class GenerateConsolidateMarks extends TestBase {
 	
+	//@Author Saquib
 	@FindBy(xpath="//select[@name='academicYearCode']")
 	WebElement academicYear;
 	
