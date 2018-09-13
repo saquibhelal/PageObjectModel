@@ -38,7 +38,7 @@ public class CreateStandardTest extends TestBase{
 		return data;
 	}
 	
-	@Test(priority=1,dataProvider="getIcamSheetData")
+	@Test(priority=1,dataProvider="getIcamSheetData",enabled=false)
 	public void standardCreationTest(String standard,String section) throws InterruptedException{
 		homePage.clickOnAcademicLinkForStandardAndSection();
 		csStnd.standardCreation(standard, section);

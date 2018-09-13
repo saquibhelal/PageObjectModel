@@ -47,9 +47,9 @@ public class CreateStandard extends TestBase {
 			for(int i=1;i<=rowCount;i++){
 			String actual_xpath=before_xpath + i + after_xpath;
 			WebElement element=driver.findElement(By.xpath(actual_xpath));
-			String ExpValue=element.getText();
+			//String ExpValue=element.getText();
 			System.out.println(element.getText());
-			if(element.getText().equals(ExpValue)){
+			if(element.getText().equals("VII")){
 			System.out.println("Standard:"+element.getText()+"is found");
 			break;
 
