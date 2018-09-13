@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iCAM Application Automation Test Suite">
+
+	 <listeners>
+		<listener class-name="com.qa.ExtentReportListner.ExtentReporterNG" />
+	</listeners>
+
+	<test name="iCAM Application Test">
+	
+		<classes>
+			<class name="com.icam.qa.testcases.UploadAssignmentTest"></class>	
+			<!-- <class name="com.icam.qa.testcases.CourseTypeTest"></class>	
+			<class name="com.icam.qa.testcases.CreateStandardTest"></class>	
+			<class name="com.icam.qa.testcases.StandardDetailsTest"></class>			
+			<class name="com.icam.qa.testcases.SubjectMappingTest"></class> -->				
+		</classes>
+		
+	</test>
+	
+</suite>

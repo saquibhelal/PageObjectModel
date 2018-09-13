@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27907" started-at="2018-09-12T10:01:10Z" finished-at="2018-09-12T10:01:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27907" started-at="2018-09-12T10:01:10Z" finished-at="2018-09-12T10:01:38Z">
+      <class name="com.icam.qa.testcases.UploadAssignmentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.UploadAssignmentTest@42e99e4a]" name="setUp" is-config="true" duration-ms="18736" started-at="2018-09-12T10:01:10Z" finished-at="2018-09-12T10:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="uploadAssignTest()[pri:0, instance:com.icam.qa.testcases.UploadAssignmentTest@42e99e4a]" name="uploadAssignTest" duration-ms="9128" started-at="2018-09-12T10:01:29Z" finished-at="2018-09-12T10:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadAssignTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.UploadAssignmentTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-12T10:01:38Z" finished-at="2018-09-12T10:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.icam.qa.testcases.UploadAssignmentTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
