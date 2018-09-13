@@ -29,7 +29,7 @@ public class TestBase {
 		
 		try{
 			Pro=new Properties();
-			FileInputStream fis=new FileInputStream("E:\\Icam_Automation_Test_QA\\IcamTest\\src\\"
+			FileInputStream fis=new FileInputStream("C:\\Users\\User\\git\\PageObjectModel\\IcamTestApplication\\src\\"
 					+ "main\\java\\com\\icam\\qa\\config\\config.properties");
 			Pro.load(fis);
 			

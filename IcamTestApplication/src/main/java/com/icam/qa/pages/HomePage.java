@@ -395,6 +395,12 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Nominal Roll List")
 	WebElement nomRollLst;
+	
+	@FindBy(linkText="Exam Seating Arrangement")
+	WebElement examSeatingLink;
+	
+	@FindBy(linkText="Configure Exam Seating")
+	WebElement configureExamSeating;
 	/*****************************************************************************************/
 	
 	public HomePage(){
@@ -869,6 +875,14 @@ public class HomePage extends TestBase {
 		genReport.click();
 		nomRollLst.click();
 	}
+	
+	public void clickOnExamSeatingArrangementLink(){
+		academicLink.click();
+		examSeatingLink.click();
+		configureExamSeating.click();
+	}
+	
+	
 	
 	
 	

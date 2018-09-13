@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.icam.qa.testcases.NominalRollListTest">
+      <class name="com.icam.qa.testcases.ConfigureExamSeatingTest">
         <methods>
+          <include name="examSeating"/>
           <include name="tearDown"/>
-          <include name="NominalRollLstTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.icam.qa.testcases.NominalRollListTest -->
+      </class> <!-- com.icam.qa.testcases.ConfigureExamSeatingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
