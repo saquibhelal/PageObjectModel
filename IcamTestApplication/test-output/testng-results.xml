@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24706" started-at="2018-09-13T07:32:32Z" finished-at="2018-09-13T07:32:56Z">
+  <suite name="Default suite" duration-ms="36992" started-at="2018-09-13T09:01:28Z" finished-at="2018-09-13T09:02:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24706" started-at="2018-09-13T07:32:32Z" finished-at="2018-09-13T07:32:56Z">
-      <class name="com.icam.qa.testcases.StudentAttendanceTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.StudentAttendanceTest@42e99e4a]" name="setUp" is-config="true" duration-ms="17305" started-at="2018-09-13T07:32:32Z" finished-at="2018-09-13T07:32:49Z">
+    <test name="Default test" duration-ms="36992" started-at="2018-09-13T09:01:28Z" finished-at="2018-09-13T09:02:05Z">
+      <class name="com.icam.qa.testcases.TeacherAttendanceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.TeacherAttendanceTest@42e99e4a]" name="setUp" is-config="true" duration-ms="29568" started-at="2018-09-13T09:01:28Z" finished-at="2018-09-13T09:01:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="attendanceForStudent()[pri:0, instance:com.icam.qa.testcases.StudentAttendanceTest@42e99e4a]" name="attendanceForStudent" duration-ms="7287" started-at="2018-09-13T07:32:49Z" finished-at="2018-09-13T07:32:56Z">
+        <test-method status="PASS" signature="teacherAttendnc()[pri:0, instance:com.icam.qa.testcases.TeacherAttendanceTest@42e99e4a]" name="teacherAttendnc" duration-ms="7373" started-at="2018-09-13T09:01:57Z" finished-at="2018-09-13T09:02:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- attendanceForStudent -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.StudentAttendanceTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-13T07:32:56Z" finished-at="2018-09-13T07:32:56Z">
+        </test-method> <!-- teacherAttendnc -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.TeacherAttendanceTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-13T09:02:05Z" finished-at="2018-09-13T09:02:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.StudentAttendanceTest -->
+      </class> <!-- com.icam.qa.testcases.TeacherAttendanceTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

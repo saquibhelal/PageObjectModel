@@ -26,6 +26,7 @@ public class StudentAttendance extends TestBase {
 	}
 
 	public void stdnAttnd() throws InterruptedException{
+		
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		Thread.sleep(2000);
 		Select select=new Select(standard);
@@ -35,8 +36,6 @@ public class StudentAttendance extends TestBase {
 		Thread.sleep(3000);
 		submit.click();
 	}
-	
-	
 	
 	
 }

@@ -407,6 +407,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Student Attendance")
 	WebElement stndAttn;
+	
+	@FindBy(linkText="Teacher Attendance")
+	WebElement tchAttnd;
 	/*****************************************************************************************/
 	
 	public HomePage(){
@@ -894,6 +897,11 @@ public class HomePage extends TestBase {
 		stndAttn.click();
 	}
 	
+	public void clickOnTeacherAttendanceLink(){
+		academicLink.click();
+		attendanceLink.click();
+		tchAttnd.click();
+	}
 	
 	
 }
