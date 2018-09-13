@@ -401,6 +401,12 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Configure Exam Seating")
 	WebElement configureExamSeating;
+	
+	@FindBy(linkText="Attendance")
+	WebElement attendanceLink;
+	
+	@FindBy(linkText="Student Attendance")
+	WebElement stndAttn;
 	/*****************************************************************************************/
 	
 	public HomePage(){
@@ -882,7 +888,11 @@ public class HomePage extends TestBase {
 		configureExamSeating.click();
 	}
 	
-	
+	public void clickOnStudentAttendanceLink(){
+		academicLink.click();
+		attendanceLink.click();
+		stndAttn.click();
+	}
 	
 	
 	
