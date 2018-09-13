@@ -37,7 +37,7 @@ public class CreateStandard extends TestBase {
 	     
 		// Method 1:
 		
-		List<WebElement> rows= driver.findElements(By.xpath("//*[@id='datatable-tabletools']/tbody/tr["));
+		List<WebElement> rows= driver.findElements(By.xpath("//*[@id='datatable-tabletools']/tbody/tr[1]"));
 		int rowCount=rows.size();
 		System.out.println("Total row in web table:"+rowCount);
 
