@@ -410,7 +410,10 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Teacher Attendance")
 	WebElement tchAttnd;
-	/*****************************************************************************************/
+	
+	@FindBy(linkText="Accession Register")
+	WebElement accsReg;
+	/***************************************************************************************************************/
 	
 	public HomePage(){
 		PageFactory.initElements(driver, this);
@@ -902,6 +905,24 @@ public class HomePage extends TestBase {
 		attendanceLink.click();
 		tchAttnd.click();
 	}
+	
+	
+	public void clickOnAccessionRegisterLink(){
+		libraryLink.click();
+		bookManagement.click();
+		accsReg.click();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }
