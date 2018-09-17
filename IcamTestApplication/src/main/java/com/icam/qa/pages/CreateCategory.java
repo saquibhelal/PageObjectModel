@@ -31,6 +31,6 @@ public class CreateCategory extends TestBase {
 		categoryName.sendKeys(catName);
 		Select select=new Select(task);
 		select.selectByVisibleText("LEAVE APPROVE");
-		//submit.click();??////////This page need to test........
+		submit.click();//??////////This page need to test........
 	}
 }

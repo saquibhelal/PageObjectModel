@@ -11,8 +11,8 @@
 		<classes>
 			<class name="com.icam.qa.testcases.UploadAssignmentTest"></class>
 			<class name="com.icam.qa.testcases.TeacherAttendanceTest"></class>
-			<class name="com.icam.qa.testcases.StudentAttendanceTest"></class>
-			<class name="com.icam.qa.testcases.UploadAssignmentTest"></class>	
+			<!-- <class name="com.icam.qa.testcases.StudentAttendanceTest"></class>
+			<class name="com.icam.qa.testcases.UploadAssignmentTest"></class> -->	
 			<!-- <class name="com.icam.qa.testcases.CourseTypeTest"></class>	
 			<class name="com.icam.qa.testcases.CreateStandardTest"></class>	
 			<class name="com.icam.qa.testcases.StandardDetailsTest"></class>			
