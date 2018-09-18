@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24612" started-at="2018-09-17T07:08:06Z" finished-at="2018-09-17T07:08:31Z">
+  <suite name="Default suite" duration-ms="59816" started-at="2018-09-18T05:42:53Z" finished-at="2018-09-18T05:43:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24612" started-at="2018-09-17T07:08:06Z" finished-at="2018-09-17T07:08:31Z">
-      <class name="com.icam.qa.testcases.TeacherAttendanceTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.TeacherAttendanceTest@42e99e4a]" name="setUp" is-config="true" duration-ms="18321" started-at="2018-09-17T07:08:06Z" finished-at="2018-09-17T07:08:24Z">
+    <test name="Default test" duration-ms="59816" started-at="2018-09-18T05:42:53Z" finished-at="2018-09-18T05:43:53Z">
+      <class name="com.icam.qa.testcases.CourseTypeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CourseTypeTest@52e6fdee]" name="setUp" is-config="true" duration-ms="28914" started-at="2018-09-18T05:42:53Z" finished-at="2018-09-18T05:43:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="teacherAttendnc()[pri:0, instance:com.icam.qa.testcases.TeacherAttendanceTest@42e99e4a]" name="teacherAttendnc" duration-ms="6198" started-at="2018-09-17T07:08:24Z" finished-at="2018-09-17T07:08:31Z">
+        <test-method status="PASS" signature="validateListofCourse()[pri:0, instance:com.icam.qa.testcases.CourseTypeTest@52e6fdee]" name="validateListofCourse" duration-ms="30141" started-at="2018-09-18T05:43:22Z" finished-at="2018-09-18T05:43:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teacherAttendnc -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.TeacherAttendanceTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-17T07:08:31Z" finished-at="2018-09-17T07:08:31Z">
+        </test-method> <!-- validateListofCourse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CourseTypeTest@52e6fdee]" name="tearDown" is-config="true" duration-ms="696" started-at="2018-09-18T05:43:52Z" finished-at="2018-09-18T05:43:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.TeacherAttendanceTest -->
+      </class> <!-- com.icam.qa.testcases.CourseTypeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

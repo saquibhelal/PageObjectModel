@@ -53,8 +53,13 @@ public class CourseTypeTest extends TestBase {
 	}
 	
 
+	@Test
+	public void validateListofCourse(){
+		courseType.validateList();
+	}
 	
-	@Test(priority=1, dataProvider="getIcamSheetData")
+	
+	@Test(priority=1, dataProvider="getIcamSheetData",enabled=false)
 	public void createNewCourseType(String CoureTypeName, String Descrption) throws Exception{
 		courseType.createCourseType(CoureTypeName, Descrption);
 		TestBase.driver.navigate().refresh();
@@ -63,7 +68,7 @@ public class CourseTypeTest extends TestBase {
 		homePage.createCourseType.click();
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,enabled=false)
 	public void validateCourseTypeTest(){
 		String title=courseType.validateCourseTypePage();
 		SoftAssert softassert=new SoftAssert();

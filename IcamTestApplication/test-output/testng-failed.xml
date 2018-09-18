@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.icam.qa.testcases.CommodityDetailsTest">
+      <class name="com.icam.qa.testcases.EmployeeDetailsTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="addCommodityDetailsTest" invocation-numbers="0 1"/>
+          <include name="employeeCreationTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.icam.qa.testcases.CommodityDetailsTest -->
+      </class> <!-- com.icam.qa.testcases.EmployeeDetailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

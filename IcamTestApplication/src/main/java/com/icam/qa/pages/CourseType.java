@@ -1,5 +1,7 @@
 package com.icam.qa.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,5 +45,17 @@ public class CourseType extends TestBase {
 		submit.click();
 	}
 	
+	public void validateList(){
+		
+		//No of columns...
+		List <WebElement> cols= driver.findElements(By.xpath("//*[@id='datatable-tabletools']/thead/tr/th"));
+		System.out.println("No of cols are :" +cols.size());
+		
+		//No of rows...
+		List <WebElement> rows= driver.findElements(By.xpath(".//*[@id='datatable-tabletools']/tbody/tr[3]/td[2]"));
+		System.out.println("No of rows are :" +rows.size());
+		
+		
+	}
 	
 }
