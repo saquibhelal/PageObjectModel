@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31412" started-at="2018-09-19T11:59:06Z" finished-at="2018-09-19T11:59:38Z">
+  <suite name="Default suite" duration-ms="34927" started-at="2018-09-19T12:12:37Z" finished-at="2018-09-19T12:13:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31412" started-at="2018-09-19T11:59:06Z" finished-at="2018-09-19T11:59:38Z">
+    <test name="Default test" duration-ms="34927" started-at="2018-09-19T12:12:37Z" finished-at="2018-09-19T12:13:12Z">
       <class name="com.icam.qa.testcases.CreateEventTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateEventTest@52e6fdee]" name="setUp" is-config="true" duration-ms="24740" started-at="2018-09-19T11:59:06Z" finished-at="2018-09-19T11:59:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateEventTest@52e6fdee]" name="setUp" is-config="true" duration-ms="16629" started-at="2018-09-19T12:12:37Z" finished-at="2018-09-19T12:12:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="eventCreationTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateEventTest@52e6fdee]" name="eventCreationTest" duration-ms="3892" started-at="2018-09-19T11:59:34Z" data-provider="getIcamSheetData" finished-at="2018-09-19T11:59:37Z">
+        <test-method status="PASS" signature="eventCreationTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateEventTest@52e6fdee]" name="eventCreationTest" duration-ms="11199" started-at="2018-09-19T12:12:56Z" data-provider="getIcamSheetData" finished-at="2018-09-19T12:13:07Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eventCreationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateEventTest@52e6fdee]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-19T11:59:38Z" finished-at="2018-09-19T11:59:38Z">
+        <test-method status="PASS" signature="eventCreationTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateEventTest@52e6fdee]" name="eventCreationTest" duration-ms="4867" started-at="2018-09-19T12:13:07Z" data-provider="getIcamSheetData" finished-at="2018-09-19T12:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Auto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[At]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eventCreationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateEventTest@52e6fdee]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-19T12:13:12Z" finished-at="2018-09-19T12:13:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

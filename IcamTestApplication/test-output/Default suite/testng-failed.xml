@@ -5,7 +5,7 @@
     <classes>
       <class name="com.icam.qa.testcases.CreateEventTest">
         <methods>
-          <include name="eventCreationTest"/>
+          <include name="eventCreationTest" invocation-numbers="1"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
