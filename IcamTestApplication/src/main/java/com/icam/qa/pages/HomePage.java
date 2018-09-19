@@ -413,6 +413,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Accession Register")
 	WebElement accsReg;
+	
+	@FindBy(linkText="Create Event")
+	WebElement createEventLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -913,6 +916,11 @@ public class HomePage extends TestBase {
 		accsReg.click();
 	}
 	
+	public void clickOnCreateEventLink(){
+		academicLink.click();
+		studentLink.click();
+		createEventLink.click();
+	}
 	
 	
 	
