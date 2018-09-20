@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29020" started-at="2018-09-20T05:33:19Z" finished-at="2018-09-20T05:33:48Z">
+  <suite name="Default suite" duration-ms="27406" started-at="2018-09-20T08:22:04Z" finished-at="2018-09-20T08:22:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29020" started-at="2018-09-20T05:33:19Z" finished-at="2018-09-20T05:33:48Z">
-      <class name="com.icam.qa.testcases.CreateEventListTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateEventListTest@42e99e4a]" name="setUp" is-config="true" duration-ms="23354" started-at="2018-09-20T05:33:19Z" finished-at="2018-09-20T05:33:43Z">
+    <test name="Default test" duration-ms="27406" started-at="2018-09-20T08:22:04Z" finished-at="2018-09-20T08:22:31Z">
+      <class name="com.icam.qa.testcases.SearchExStudentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.SearchExStudentTest@42e99e4a]" name="setUp" is-config="true" duration-ms="16689" started-at="2018-09-20T08:22:04Z" finished-at="2018-09-20T08:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="editEventListTest()[pri:0, instance:com.icam.qa.testcases.CreateEventListTest@42e99e4a]" name="editEventListTest" duration-ms="5581" started-at="2018-09-20T05:33:43Z" finished-at="2018-09-20T05:33:48Z">
+        <test-method status="PASS" signature="searchExStudentTest()[pri:0, instance:com.icam.qa.testcases.SearchExStudentTest@42e99e4a]" name="searchExStudentTest" duration-ms="10592" started-at="2018-09-20T08:22:21Z" finished-at="2018-09-20T08:22:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editEventListTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateEventListTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-20T05:33:48Z" finished-at="2018-09-20T05:33:48Z">
+        </test-method> <!-- searchExStudentTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.SearchExStudentTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-20T08:22:31Z" finished-at="2018-09-20T08:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.CreateEventListTest -->
+      </class> <!-- com.icam.qa.testcases.SearchExStudentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

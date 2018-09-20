@@ -416,6 +416,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Create Event")
 	WebElement createEventLink;
+	
+	@FindBy(linkText="Search Ex Students")
+	WebElement searchExStdntLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -923,6 +926,12 @@ public class HomePage extends TestBase {
 	}
 	
 	
+	public void clickOnSearchExStudentLink(){
+		academicLink.click();
+		studentLink.click();
+		searchExStdntLink.click();
+		
+	}
 	
 	
 	
