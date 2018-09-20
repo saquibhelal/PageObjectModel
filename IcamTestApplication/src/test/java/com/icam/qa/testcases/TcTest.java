@@ -3,6 +3,7 @@ package com.icam.qa.testcases;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.icam.qa.base.TestBase;
 import com.icam.qa.pages.HomePage;
@@ -27,18 +28,19 @@ public class TcTest extends TestBase {
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));
 	}
 	
-	@Test
-	public void generateTcTest() {
+	@Test(priority=1)
+	public void generateTcTest() throws InterruptedException {
 		homePage.clickOnGenerateTcLink();
-		try {
-			tc.generateTc();
-		} catch (InterruptedException e) {
-			System.out.println("Generate Tc Successfull....");
-			e.printStackTrace();
-		}
+        tc.generateTc();
 	}
 	
-	
+	@Test(priority=2)
+	public void validateTcPageTitle(){
+		String title=tc.validatePage();
+		SoftAssert sf= new SoftAssert();
+		sf.assertEquals("Create Tc",title);
+		sf.assertAll();
+	}
 	
 	
 	@AfterClass

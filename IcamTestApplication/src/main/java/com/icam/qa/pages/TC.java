@@ -1,5 +1,7 @@
 package com.icam.qa.pages;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,12 +45,13 @@ public class TC extends TestBase {
 		
 	}
 	
+	public String validatePage(){
+		String titleChck="Create Tc";
+		return titleChck;
+	}
 	
 	
 	
 	
 	
-	
-	
-
 }
