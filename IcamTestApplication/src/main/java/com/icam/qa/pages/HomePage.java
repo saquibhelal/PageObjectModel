@@ -419,6 +419,12 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Search Ex Students")
 	WebElement searchExStdntLink;
+	
+	@FindBy(linkText="TC Management")
+	WebElement tcManagement;
+	
+	@FindBy(linkText="TC Generation")
+	WebElement tcGenerateLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -925,11 +931,17 @@ public class HomePage extends TestBase {
 		createEventLink.click();
 	}
 	
-	
 	public void clickOnSearchExStudentLink(){
 		academicLink.click();
 		studentLink.click();
 		searchExStdntLink.click();
+		
+	}
+	
+	public void clickOnGenerateTcLink(){
+		officeAdminLink.click();
+		tcManagement.click();
+		tcGenerateLink.click();
 		
 	}
 	

@@ -29,10 +29,11 @@ public class SearchExStudent extends TestBase {
 	public void searchExStudent() throws InterruptedException{
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		Thread.sleep(3000);
-		firstName.sendKeys("Sayan");
-		lastName.sendKeys("Dutta");
-		rollNo.sendKeys("5013");
+		firstName.sendKeys("Ayush");
+		lastName.sendKeys("Paul");
+		rollNo.sendKeys("5082");
 		search.click();
+		
 	}
 	
 	
