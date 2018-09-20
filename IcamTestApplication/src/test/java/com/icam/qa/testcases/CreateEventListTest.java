@@ -5,43 +5,42 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.icam.qa.base.TestBase;
+import com.icam.qa.pages.CreateEventList;
 import com.icam.qa.pages.HomePage;
 import com.icam.qa.pages.LoginPage;
-import com.icam.qa.pages.NominalRollList;
 
-public class NominalRollListTest extends TestBase{
-
+public class CreateEventListTest extends TestBase {
+	
 	LoginPage loginPage;
 	HomePage homePage;
-	NominalRollList nmRollList;
+	CreateEventList list;
 	
-	public NominalRollListTest(){
+	public CreateEventListTest(){
 		super();
 	}
 	
 	@BeforeClass
 	public void setUp(){
 		initializationBrowser();
-		nmRollList=new NominalRollList();
+		list=new CreateEventList();
 		loginPage= new LoginPage();
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));
-		
 	}
+
 	
 	@Test
-	public void NominalRollLstTest() throws InterruptedException{
-		homePage.clickOnNominalRollListLink();
-		nmRollList.nomianlReportr();
-		System.out.println("===Nominal Roll List are===>>");
+	public void editEventListTest() throws InterruptedException{
+		homePage.clickOnCreateEventLink();
+		list.updateEventList();
+		System.out.println("Event updated Sucessfull......");
 	}
+		
+	
 	
 	@AfterClass
 	public void tearDown(){
-		System.out.println("======Browser is shutting down=====>>\n");
+		System.out.println("======Browser is shutting down=====\n");
 		//driver.quit();
 	}
-	
-	
-	
 	
 }

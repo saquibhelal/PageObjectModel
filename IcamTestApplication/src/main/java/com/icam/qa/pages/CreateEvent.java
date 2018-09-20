@@ -41,7 +41,7 @@ public class CreateEvent extends TestBase {
 		JavascriptExecutor js1=(JavascriptExecutor)driver;
 		js1.executeScript("document.getElementById('eventEndDate').value='18/04/2018'");
 		incharge.sendKeys(inc);
-		submit.click();
+		//submit.click();
 		
 	}
 	
