@@ -32,7 +32,7 @@ public class NominalRollList extends TestBase {
 		select.selectByVisibleText("VI");
 		Select select1=new Select(sec);
 		select1.selectByVisibleText("A");
-		//submit.click();
+		submit.click();
 		
 	}
 

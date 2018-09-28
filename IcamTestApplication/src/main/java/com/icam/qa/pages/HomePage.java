@@ -425,6 +425,24 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="TC Generation")
 	WebElement tcGenerateLink;
+	
+	@FindBy(linkText="Library Report")
+	WebElement libraryReport;
+	
+	@FindBy(linkText="Book Report")
+	WebElement bookReport;
+	
+	@FindBy(linkText="Book Allocation Report")
+	WebElement bookAllctRpt;
+	
+	@FindBy(linkText="Book Lending Report")
+	WebElement bookLending;
+	
+	@FindBy(linkText="My School Note")
+	WebElement schoolNoteLink;
+	
+	@FindBy(linkText="School Note")
+	WebElement schoolNote;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -945,13 +963,27 @@ public class HomePage extends TestBase {
 		
 	}
 	
+	public void clickOnBookReportLink(){
+		reportLink.click();
+		libraryReport.click();
+		bookReport.click();
+	}
 	
+	public void clickOnBookAllocationReportLink(){
+		reportLink.click();
+		libraryReport.click();
+		bookAllctRpt.click();
+	}
 	
+   public void clickOnBookLendingReportLink(){
+	   reportLink.click();
+		libraryReport.click();
+		bookLending.click();
+   }
 	
-	
-	
-	
-	
-	
-	
+   public void clickOnSchoolNoteLink(){
+	   myServiceLink.click();
+	   schoolNoteLink.click();
+	   schoolNote.click();
+   }
 }
