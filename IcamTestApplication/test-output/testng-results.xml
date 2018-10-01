@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31732" started-at="2018-09-28T09:44:05Z" finished-at="2018-09-28T09:44:37Z">
+  <suite name="Default suite" duration-ms="29749" started-at="2018-10-01T07:16:38Z" finished-at="2018-10-01T07:17:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31732" started-at="2018-09-28T09:44:05Z" finished-at="2018-09-28T09:44:37Z">
-      <class name="com.icam.qa.testcases.SchoolNoteTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.SchoolNoteTest@42e99e4a]" name="setUp" is-config="true" duration-ms="25541" started-at="2018-09-28T09:44:05Z" finished-at="2018-09-28T09:44:30Z">
+    <test name="Default test" duration-ms="29749" started-at="2018-10-01T07:16:38Z" finished-at="2018-10-01T07:17:08Z">
+      <class name="com.icam.qa.testcases.ClassTeacherTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.ClassTeacherTest@42e99e4a]" name="setUp" is-config="true" duration-ms="23322" started-at="2018-10-01T07:16:38Z" finished-at="2018-10-01T07:17:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="schooNoteTest()[pri:0, instance:com.icam.qa.testcases.SchoolNoteTest@42e99e4a]" name="schooNoteTest" duration-ms="6110" started-at="2018-09-28T09:44:31Z" finished-at="2018-09-28T09:44:37Z">
+        <test-method status="PASS" signature="classTeacherTest()[pri:1, instance:com.icam.qa.testcases.ClassTeacherTest@42e99e4a]" name="classTeacherTest" duration-ms="6291" started-at="2018-10-01T07:17:02Z" finished-at="2018-10-01T07:17:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- schooNoteTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.SchoolNoteTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-28T09:44:37Z" finished-at="2018-09-28T09:44:37Z">
+        </test-method> <!-- classTeacherTest -->
+        <test-method status="PASS" signature="validateCreateClassTeacherPage()[pri:2, instance:com.icam.qa.testcases.ClassTeacherTest@42e99e4a]" name="validateCreateClassTeacherPage" duration-ms="10" started-at="2018-10-01T07:17:08Z" finished-at="2018-10-01T07:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateClassTeacherPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.ClassTeacherTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-01T07:17:08Z" finished-at="2018-10-01T07:17:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.SchoolNoteTest -->
+      </class> <!-- com.icam.qa.testcases.ClassTeacherTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

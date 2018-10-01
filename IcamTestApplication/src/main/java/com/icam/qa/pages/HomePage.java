@@ -443,6 +443,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="School Note")
 	WebElement schoolNote;
+	
+	@FindBy(linkText="Create Class Teacher")
+	 WebElement createClassTeacherLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -986,4 +989,16 @@ public class HomePage extends TestBase {
 	   schoolNoteLink.click();
 	   schoolNote.click();
    }
+  
+   public void clickOnCreateClassTeacherLink(){
+	   
+	   academicLink.click();
+	   mapTeacherAllot.click();
+	   createClassTeacherLink.click();
+	   
+   }
+   
+   
+   
+   
 }
