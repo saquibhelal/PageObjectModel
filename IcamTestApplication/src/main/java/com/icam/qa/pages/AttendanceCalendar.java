@@ -58,9 +58,7 @@ public class AttendanceCalendar extends TestBase {
 		select5.selectByVisibleText("A");
 		Select select6=new Select(resName);
 		select6.selectByVisibleText("SAYAN  DUTTA");
-		
 	}
-	
 	
 
 }

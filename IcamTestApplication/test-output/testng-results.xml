@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45864" started-at="2018-10-03T07:34:37Z" finished-at="2018-10-03T07:35:23Z">
+  <suite name="Default suite" duration-ms="30621" started-at="2018-10-03T08:08:27Z" finished-at="2018-10-03T08:08:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45864" started-at="2018-10-03T07:34:37Z" finished-at="2018-10-03T07:35:23Z">
-      <class name="com.icam.qa.testcases.AttendanceCalendarTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.AttendanceCalendarTest@42e99e4a]" name="setUp" is-config="true" duration-ms="23907" started-at="2018-10-03T07:34:37Z" finished-at="2018-10-03T07:35:01Z">
+    <test name="Default test" duration-ms="30621" started-at="2018-10-03T08:08:27Z" finished-at="2018-10-03T08:08:58Z">
+      <class name="com.icam.qa.testcases.UploadTeacherAttendanceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.UploadTeacherAttendanceTest@42e99e4a]" name="setUp" is-config="true" duration-ms="24832" started-at="2018-10-03T08:08:27Z" finished-at="2018-10-03T08:08:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="attendanceCalendarTest()[pri:1, instance:com.icam.qa.testcases.AttendanceCalendarTest@42e99e4a]" name="attendanceCalendarTest" duration-ms="21817" started-at="2018-10-03T07:35:01Z" finished-at="2018-10-03T07:35:23Z">
+        <test-method status="PASS" signature="teacherAttendance()[pri:1, instance:com.icam.qa.testcases.UploadTeacherAttendanceTest@42e99e4a]" name="teacherAttendance" duration-ms="5692" started-at="2018-10-03T08:08:52Z" finished-at="2018-10-03T08:08:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- attendanceCalendarTest -->
-        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.AttendanceCalendarTest@42e99e4a]" name="validatePageTest" duration-ms="9" started-at="2018-10-03T07:35:23Z" finished-at="2018-10-03T07:35:23Z">
+        </test-method> <!-- teacherAttendance -->
+        <test-method status="PASS" signature="validatePage()[pri:2, instance:com.icam.qa.testcases.UploadTeacherAttendanceTest@42e99e4a]" name="validatePage" duration-ms="7" started-at="2018-10-03T08:08:58Z" finished-at="2018-10-03T08:08:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.AttendanceCalendarTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-03T07:35:23Z" finished-at="2018-10-03T07:35:23Z">
+        </test-method> <!-- validatePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.UploadTeacherAttendanceTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-03T08:08:58Z" finished-at="2018-10-03T08:08:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.AttendanceCalendarTest -->
+      </class> <!-- com.icam.qa.testcases.UploadTeacherAttendanceTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

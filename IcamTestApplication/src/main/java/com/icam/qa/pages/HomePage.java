@@ -455,6 +455,9 @@ public class HomePage extends TestBase {
 	
     @FindBy(linkText="Attendance Calendar")
     WebElement attendanceCalendarLink;
+    
+    @FindBy(linkText="Upload Teacher Attendance")
+    WebElement uploadTeacherAttendancelink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1024,7 +1027,12 @@ public class HomePage extends TestBase {
 	   attendanceLink.click();
 	   attendanceCalendarLink.click();
    }
-   
+  
+   public void clickOnUploadTeacherAttendanceLink(){
+	   academicLink.click();
+	   attendanceLink.click();
+	   uploadTeacherAttendancelink.click();
+   }
    
    
    
