@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.icam.qa.testcases.StudentPromotionTest">
+      <class name="com.icam.qa.testcases.StudentAchievementTest">
         <methods>
-          <include name="validatePageTitle"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="studentAchievementTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.icam.qa.testcases.StudentPromotionTest -->
+      </class> <!-- com.icam.qa.testcases.StudentAchievementTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

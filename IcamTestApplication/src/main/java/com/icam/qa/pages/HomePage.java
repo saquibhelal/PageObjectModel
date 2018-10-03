@@ -449,6 +449,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(linkText="Student Promotion")
 	WebElement studentPromotionLink;
+	
+	@FindBy(linkText="Student Achievements")
+    WebElement studentAchievementLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1006,6 +1009,23 @@ public class HomePage extends TestBase {
 	   studentLink.click();
 	   studentPromotionLink.click();
    }
+   
+   public void clickOnStudentAchievementLink(){
+	   academicLink.click();
+	   studentLink.click();
+	   studentAchievementLink.click();
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
    
