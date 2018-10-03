@@ -458,6 +458,9 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Upload Teacher Attendance")
     WebElement uploadTeacherAttendancelink;
+    
+    @FindBy(linkText="Book Cataloging & Accession Register")
+    WebElement bookcatAndAccessionReg;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1034,7 +1037,13 @@ public class HomePage extends TestBase {
 	   uploadTeacherAttendancelink.click();
    }
    
-   
+   public void clickOnBookCatAndAccessionRegLink(){
+	   libraryLink.click();
+	   bookManagement.click();
+	   bookcatAndAccessionReg.click();
+	   	   
+   }
+ 
    
    
    
