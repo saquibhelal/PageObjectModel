@@ -482,6 +482,12 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Create Group")
     WebElement createGroupLink;
+    
+    @FindBy(linkText="Ledger")
+    WebElement ledgerLink;
+    
+    @FindBy(linkText="Create Ledger")
+    WebElement createLedgerlink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1095,8 +1101,12 @@ public class HomePage extends TestBase {
 	   createGroupLink.click();
 	   
    }
-   
-   
+ 
+   public void clickOnCreateLedgerLink(){
+	   financeLink.click();
+	   ledgerLink.click();
+	   createLedgerlink.click();
+   }
    
    
    

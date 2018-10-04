@@ -2,28 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27167" started-at="2018-10-04T07:33:09Z" finished-at="2018-10-04T07:33:36Z">
+  <suite name="Default suite" duration-ms="41624" started-at="2018-10-04T09:13:13Z" finished-at="2018-10-04T09:13:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27167" started-at="2018-10-04T07:33:09Z" finished-at="2018-10-04T07:33:36Z">
-      <class name="com.icam.qa.testcases.CreateGroupTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateGroupTest@42e99e4a]" name="setUp" is-config="true" duration-ms="20937" started-at="2018-10-04T07:33:09Z" finished-at="2018-10-04T07:33:30Z">
+    <test name="Default test" duration-ms="41624" started-at="2018-10-04T09:13:13Z" finished-at="2018-10-04T09:13:55Z">
+      <class name="com.icam.qa.testcases.CreateLedgerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateLedgerTest@52e6fdee]" name="setUp" is-config="true" duration-ms="27458" started-at="2018-10-04T09:13:13Z" finished-at="2018-10-04T09:13:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="groupCreationTest()[pri:1, instance:com.icam.qa.testcases.CreateGroupTest@42e99e4a]" name="groupCreationTest" duration-ms="6146" started-at="2018-10-04T07:33:30Z" finished-at="2018-10-04T07:33:36Z">
+        <test-method status="PASS" signature="ledgerCreationTest(java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateLedgerTest@52e6fdee]" name="ledgerCreationTest" duration-ms="11337" started-at="2018-10-04T09:13:44Z" data-provider="getIcamSheetData" finished-at="2018-10-04T09:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- groupCreationTest -->
-        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.CreateGroupTest@42e99e4a]" name="validatePageTest" duration-ms="9" started-at="2018-10-04T07:33:36Z" finished-at="2018-10-04T07:33:36Z">
+        </test-method> <!-- ledgerCreationTest -->
+        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.CreateLedgerTest@52e6fdee]" name="validatePageTest" duration-ms="7" started-at="2018-10-04T09:13:55Z" finished-at="2018-10-04T09:13:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateGroupTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-04T07:33:36Z" finished-at="2018-10-04T07:33:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateLedgerTest@52e6fdee]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-04T09:13:55Z" finished-at="2018-10-04T09:13:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.CreateGroupTest -->
+      </class> <!-- com.icam.qa.testcases.CreateLedgerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
