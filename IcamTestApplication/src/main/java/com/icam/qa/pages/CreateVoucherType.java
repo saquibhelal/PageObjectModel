@@ -33,7 +33,7 @@ public class CreateVoucherType extends TestBase {
 	  Thread.sleep(3000);
 	  voucherTypeName.sendKeys("RPA");
 	  radioBtn.click();
-	  //submit.click();
+	  submit.click();
 	}
 	
 }

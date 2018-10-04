@@ -34,7 +34,7 @@ public class CreateFacility extends TestBase {
 		Thread.sleep(3000);
 		facilityName.sendKeys(fName);
 		desc.sendKeys(fDesc);
-		//submit.click();
+		submit.click();
 		
 	}
 	
