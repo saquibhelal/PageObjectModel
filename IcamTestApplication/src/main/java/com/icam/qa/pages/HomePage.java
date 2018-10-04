@@ -488,6 +488,12 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Create Ledger")
     WebElement createLedgerlink;
+    
+    @FindBy(linkText="Voucher Type")
+    WebElement voucherTypeLink;
+    
+    @FindBy(linkText="Create Voucher Type")
+    WebElement createVoucherLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1108,7 +1114,11 @@ public class HomePage extends TestBase {
 	   createLedgerlink.click();
    }
    
-   
+   public void clickOnCreateVoucherTypeLink(){
+	   financeLink.click();
+	   voucherTypeLink.click();
+	   createVoucherLink.click();
+   }
    
    
    
