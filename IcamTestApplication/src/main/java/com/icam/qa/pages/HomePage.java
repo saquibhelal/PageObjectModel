@@ -476,6 +476,12 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Venue Allocation")
     WebElement venueAllocation;
+    
+    @FindBy(linkText="Group")
+    WebElement groupLink;
+    
+    @FindBy(linkText="Create Group")
+    WebElement createGroupLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1082,6 +1088,17 @@ public class HomePage extends TestBase {
 	   venueLink.click();
 	   venueAllocation.click();
    }
+   
+   public void clickOnCreateGroupLink(){
+	   financeLink.click();
+	   groupLink.click();
+	   createGroupLink.click();
+	   
+   }
+   
+   
+   
+   
    
    
    
