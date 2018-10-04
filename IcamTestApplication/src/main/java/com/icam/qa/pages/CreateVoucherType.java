@@ -31,7 +31,7 @@ public class CreateVoucherType extends TestBase {
 		
 	  driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 	  Thread.sleep(3000);
-	  voucherTypeName.sendKeys("Testing");
+	  voucherTypeName.sendKeys("RPA");
 	  radioBtn.click();
 	  //submit.click();
 	}
