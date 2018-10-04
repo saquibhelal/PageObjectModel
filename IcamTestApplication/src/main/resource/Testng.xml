@@ -9,8 +9,8 @@
 	<test name="iCAM Application Test">
 	
 		<classes>
-			<class name="com.icam.qa.testcases.UploadAssignmentTest"></class>
-			<class name="com.icam.qa.testcases.TeacherAttendanceTest"></class>
+			<class name="com.icam.qa.testcases.CreateFacilityTest"></class>
+			<class name="com.icam.qa.testcases.CreateVoucherTypeTest"></class>
 			<!-- <class name="com.icam.qa.testcases.StudentAttendanceTest"></class>
 			<class name="com.icam.qa.testcases.UploadAssignmentTest"></class> -->	
 			<!-- <class name="com.icam.qa.testcases.CourseTypeTest"></class>	
