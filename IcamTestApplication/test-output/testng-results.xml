@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29497" started-at="2018-10-04T09:59:19Z" finished-at="2018-10-04T09:59:49Z">
+  <suite name="Default suite" duration-ms="39370" started-at="2018-10-04T11:47:07Z" finished-at="2018-10-04T11:47:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29497" started-at="2018-10-04T09:59:19Z" finished-at="2018-10-04T09:59:49Z">
-      <class name="com.icam.qa.testcases.CreateVoucherTypeTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateVoucherTypeTest@42e99e4a]" name="setUp" is-config="true" duration-ms="24049" started-at="2018-10-04T09:59:19Z" finished-at="2018-10-04T09:59:43Z">
+    <test name="Default test" duration-ms="39370" started-at="2018-10-04T11:47:07Z" finished-at="2018-10-04T11:47:47Z">
+      <class name="com.icam.qa.testcases.TaxSetUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.TaxSetUpTest@42e99e4a]" name="setUp" is-config="true" duration-ms="34049" started-at="2018-10-04T11:47:07Z" finished-at="2018-10-04T11:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="voucherCreationTest()[pri:1, instance:com.icam.qa.testcases.CreateVoucherTypeTest@42e99e4a]" name="voucherCreationTest" duration-ms="5330" started-at="2018-10-04T09:59:44Z" finished-at="2018-10-04T09:59:49Z">
+        <test-method status="PASS" signature="taxSetupTest()[pri:1, instance:com.icam.qa.testcases.TaxSetUpTest@42e99e4a]" name="taxSetupTest" duration-ms="5222" started-at="2018-10-04T11:47:41Z" finished-at="2018-10-04T11:47:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- voucherCreationTest -->
-        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.CreateVoucherTypeTest@42e99e4a]" name="validatePageTest" duration-ms="8" started-at="2018-10-04T09:59:49Z" finished-at="2018-10-04T09:59:49Z">
+        </test-method> <!-- taxSetupTest -->
+        <test-method status="PASS" signature="validatePage()[pri:2, instance:com.icam.qa.testcases.TaxSetUpTest@42e99e4a]" name="validatePage" duration-ms="8" started-at="2018-10-04T11:47:47Z" finished-at="2018-10-04T11:47:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateVoucherTypeTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-04T09:59:49Z" finished-at="2018-10-04T09:59:49Z">
+        </test-method> <!-- validatePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.TaxSetUpTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-04T11:47:47Z" finished-at="2018-10-04T11:47:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.CreateVoucherTypeTest -->
+      </class> <!-- com.icam.qa.testcases.TaxSetUpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

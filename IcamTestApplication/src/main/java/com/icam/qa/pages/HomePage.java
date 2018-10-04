@@ -494,6 +494,12 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Create Voucher Type")
     WebElement createVoucherLink;
+    
+    @FindBy(linkText="TAX")
+    WebElement taxLink;
+    
+    @FindBy(linkText="TAX Setup")
+    WebElement taxSetUpLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1120,7 +1126,11 @@ public class HomePage extends TestBase {
 	   createVoucherLink.click();
    }
    
-   
+   public void clickOnTaxSetUpLink(){
+	   financeLink.click();
+	   taxLink.click();
+	   taxSetUpLink.click();
+   }
    
    
 }
