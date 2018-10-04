@@ -467,6 +467,12 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Create Facility")
     WebElement createFacility;
+    
+    @FindBy(linkText="Facility List")
+    WebElement facilityList;
+    
+    @FindBy(linkText="Facility De-activation")
+    WebElement facilityDeActivationLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1055,9 +1061,18 @@ public class HomePage extends TestBase {
 	   facilityLink.click();
 	   createFacility.click();
    }
-   
-   
-   
+  
+   public void clickOnFacilityListLink(){
+	   facilityVenueManagementLink.click();
+	   facilityLink.click();
+	   facilityList.click();
+   }
+ 
+   public void cilckOnFacilityDeActionLink(){
+	   facilityVenueManagementLink.click();
+	   facilityLink.click();
+	   facilityDeActivationLink.click();
+   }
    
    
    
