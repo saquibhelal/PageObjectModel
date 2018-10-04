@@ -59,6 +59,4 @@ public class CreateLedgerTest extends TestBase {
 		 //driver.quit();
 	}
 	
-	
-	
 }

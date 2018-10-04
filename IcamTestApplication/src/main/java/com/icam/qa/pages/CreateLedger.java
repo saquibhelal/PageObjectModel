@@ -37,7 +37,7 @@ public class CreateLedger extends TestBase {
 		String valChck="Create Ledger";
 		return valChck;
 	}
-	
+
 	public void createLedger(String ledName,String opBal) throws InterruptedException{
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		Thread.sleep(3000);

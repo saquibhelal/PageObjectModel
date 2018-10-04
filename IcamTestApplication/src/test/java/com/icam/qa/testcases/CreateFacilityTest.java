@@ -29,8 +29,7 @@ public class CreateFacilityTest extends TestBase {
 		initializationBrowser();
 		crFclt=new CreateFacility();
 		loginPage= new LoginPage();
-		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));
-		
+		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));	
 	}
 	
 	@DataProvider
