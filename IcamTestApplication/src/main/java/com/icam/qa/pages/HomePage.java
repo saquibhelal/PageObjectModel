@@ -473,6 +473,9 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Facility De-activation")
     WebElement facilityDeActivationLink;
+    
+    @FindBy(linkText="Venue Allocation")
+    WebElement venueAllocation;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1074,7 +1077,11 @@ public class HomePage extends TestBase {
 	   facilityDeActivationLink.click();
    }
    
-   
+   public void clickOnVenueAllocationLink(){
+	   facilityVenueManagementLink.click();
+	   venueLink.click();
+	   venueAllocation.click();
+   }
    
    
    

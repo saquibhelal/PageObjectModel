@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50031" started-at="2018-10-04T05:38:25Z" finished-at="2018-10-04T05:39:15Z">
+  <suite name="Default suite" duration-ms="51012" started-at="2018-10-04T07:08:33Z" finished-at="2018-10-04T07:09:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50031" started-at="2018-10-04T05:38:25Z" finished-at="2018-10-04T05:39:15Z">
-      <class name="com.icam.qa.testcases.FacilityDeActivationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.FacilityDeActivationTest@42e99e4a]" name="setUp" is-config="true" duration-ms="45128" started-at="2018-10-04T05:38:25Z" finished-at="2018-10-04T05:39:10Z">
+    <test name="Default test" duration-ms="51012" started-at="2018-10-04T07:08:33Z" finished-at="2018-10-04T07:09:24Z">
+      <class name="com.icam.qa.testcases.VenueAllocationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.VenueAllocationTest@42e99e4a]" name="setUp" is-config="true" duration-ms="44717" started-at="2018-10-04T07:08:33Z" finished-at="2018-10-04T07:09:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="facilityDeActivationTest()[pri:1, instance:com.icam.qa.testcases.FacilityDeActivationTest@42e99e4a]" name="facilityDeActivationTest" duration-ms="4734" started-at="2018-10-04T05:39:10Z" finished-at="2018-10-04T05:39:15Z">
+        <test-method status="PASS" signature="venueAllocationTest()[pri:1, instance:com.icam.qa.testcases.VenueAllocationTest@42e99e4a]" name="venueAllocationTest" duration-ms="6202" started-at="2018-10-04T07:09:18Z" finished-at="2018-10-04T07:09:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facilityDeActivationTest -->
-        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.FacilityDeActivationTest@42e99e4a]" name="validatePageTest" duration-ms="6" started-at="2018-10-04T05:39:15Z" finished-at="2018-10-04T05:39:15Z">
+        </test-method> <!-- venueAllocationTest -->
+        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.VenueAllocationTest@42e99e4a]" name="validatePageTest" duration-ms="8" started-at="2018-10-04T07:09:24Z" finished-at="2018-10-04T07:09:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.FacilityDeActivationTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-04T05:39:15Z" finished-at="2018-10-04T05:39:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.VenueAllocationTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-04T07:09:24Z" finished-at="2018-10-04T07:09:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.FacilityDeActivationTest -->
+      </class> <!-- com.icam.qa.testcases.VenueAllocationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
