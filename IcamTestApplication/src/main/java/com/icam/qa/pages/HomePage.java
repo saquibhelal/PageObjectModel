@@ -500,6 +500,12 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="TAX Setup")
     WebElement taxSetUpLink;
+    
+    @FindBy(linkText="Residence Management")
+    WebElement residenceManagementLink;
+    
+    @FindBy(linkText="Create Residence Type")
+    WebElement createResidenceTypeLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1131,6 +1137,21 @@ public class HomePage extends TestBase {
 	   taxLink.click();
 	   taxSetUpLink.click();
    }
+  
+   public void clickOnResidenceTypeLink(){
+	   hstlLink.click();
+	   residenceManagementLink.click();
+	   createResidenceTypeLink.click();
+	   
+   }
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 }

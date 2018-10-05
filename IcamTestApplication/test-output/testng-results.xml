@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30265" started-at="2018-10-05T05:23:51Z" finished-at="2018-10-05T05:24:22Z">
+  <suite name="Default suite" duration-ms="39360" started-at="2018-10-05T06:40:55Z" finished-at="2018-10-05T06:41:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30265" started-at="2018-10-05T05:23:51Z" finished-at="2018-10-05T05:24:22Z">
-      <class name="com.icam.qa.testcases.CreateVoucherTypeTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateVoucherTypeTest@239963d8]" name="setUp" is-config="true" duration-ms="29994" started-at="2018-10-05T05:23:51Z" finished-at="2018-10-05T05:24:21Z">
+    <test name="Default test" duration-ms="39360" started-at="2018-10-05T06:40:55Z" finished-at="2018-10-05T06:41:35Z">
+      <class name="com.icam.qa.testcases.CreateResidenceTypeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateResidenceTypeTest@42e99e4a]" name="setUp" is-config="true" duration-ms="33723" started-at="2018-10-05T06:40:55Z" finished-at="2018-10-05T06:41:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.CreateVoucherTypeTest@239963d8]" name="validatePageTest" duration-ms="97" started-at="2018-10-05T05:24:21Z" finished-at="2018-10-05T05:24:22Z">
+        <test-method status="PASS" signature="residenceType()[pri:1, instance:com.icam.qa.testcases.CreateResidenceTypeTest@42e99e4a]" name="residenceType" duration-ms="5447" started-at="2018-10-05T06:41:29Z" finished-at="2018-10-05T06:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- residenceType -->
+        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.CreateResidenceTypeTest@42e99e4a]" name="validatePageTest" duration-ms="37" started-at="2018-10-05T06:41:35Z" finished-at="2018-10-05T06:41:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateVoucherTypeTest@239963d8]" name="tearDown" is-config="true" duration-ms="3" started-at="2018-10-05T05:24:22Z" finished-at="2018-10-05T05:24:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateResidenceTypeTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-05T06:41:35Z" finished-at="2018-10-05T06:41:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.CreateVoucherTypeTest -->
+      </class> <!-- com.icam.qa.testcases.CreateResidenceTypeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

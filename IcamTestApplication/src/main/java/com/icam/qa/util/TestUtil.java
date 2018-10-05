@@ -9,7 +9,6 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.omg.Messaging.SyncScopeHelper;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -18,7 +17,7 @@ import com.icam.qa.base.TestBase;
 public class TestUtil extends TestBase{
 
 	public static long PAGE_LOAD_TIMEOUT= 25;
-	public static long IMPLICIT_WAIT= 15;
+	public static long IMPLICIT_WAIT= 20;
 	
 	public static String TESTDATA_SHEET_PATH="C:\\Users\\User\\git\\PageObjectModel\\IcamTestApplication\\src"
 			+ "\\main\\java\\com\\icam\\qa\\testdata\\iCAM_Data_Sheet.xlsx";

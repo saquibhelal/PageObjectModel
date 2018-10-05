@@ -14,10 +14,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  <build>
+   <build>
+   
     <plugins>
-      <plugin>
-          <!-- <groupId>apache.maven.plugins</groupId> -->
+      <plugin>  
           <artifactId>maven-assembly-plugin</artifactId>
           <executions>
             <execution>
@@ -28,8 +28,8 @@
             </execution>
           </executions>
       </plugin>
-      <plugin>
       
+      <plugin>
 	      <groupId>org.apache.maven.plugins</groupId>
 	      <artifactId>maven-compiler-plugin</artifactId>
 	      <configuration>
@@ -37,17 +37,20 @@
 	        <type>maven-plugin</type>
 	      </configuration>    
      </plugin>
+     
      <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-			  <artifactId>maven-surefire-plugin</artifactId>
-			  <version>2.22.0</version>
-			  <configuration>
+             <groupId>org.apache.maven.surefire</groupId>
+             <artifactId>surefire</artifactId>
+             <version>2.22.0</version>
+			 <configuration>
+			   
 			     <suiteXmlFiles>
-			       <suiteXmlFile>src/main/resource/Testng.xml</suiteXmlFile>
+			       <suiteXmlFile>src\main\resource\Testng.xml</suiteXmlFile>
 			     </suiteXmlFiles>
-			  </configuration>
+			 </configuration>
      
      </plugin>
+     
       <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
@@ -60,13 +63,8 @@
               </execution>
             </executions>
       </plugin>
-      
-      
-      
     </plugins> 
-  </build>
-  
-  
+  </build> 
 
   <dependencies>
     
