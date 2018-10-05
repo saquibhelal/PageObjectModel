@@ -38,7 +38,7 @@ public class CreateFacilityTest extends TestBase {
 		return data;
 	}
 	
-	@Test(priority=1,dataProvider="getIcamSheetData")
+	@Test(priority=1,dataProvider="getIcamSheetData",enabled=false)
 	public void facilityCreationTest(String fcNme,String fcDes) throws InterruptedException{
 		homePage.clickOnCreateFacilityLink();
 		crFclt.addFacility(fcNme, fcDes);

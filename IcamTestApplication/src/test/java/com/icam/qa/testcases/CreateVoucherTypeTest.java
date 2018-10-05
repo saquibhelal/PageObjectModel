@@ -28,7 +28,7 @@ public class CreateVoucherTypeTest extends TestBase {
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));	
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1,enabled=false)
 	public void voucherCreationTest() throws InterruptedException{
 		homePage.clickOnCreateVoucherTypeLink();
 		crVoTyp.voucherCreation();

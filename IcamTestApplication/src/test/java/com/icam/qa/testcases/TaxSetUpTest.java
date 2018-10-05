@@ -43,7 +43,6 @@ public class TaxSetUpTest extends TestBase {
 		
 	}
 	
-	
 	@AfterClass
 	public void tearDown(){
 		System.out.println("======Browser is shutting down=====\n");
