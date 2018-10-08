@@ -515,6 +515,9 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Create House")
     WebElement createHouse;
+    
+    @FindBy(linkText="House Residence Mapping")
+    WebElement houseResMappingLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1166,6 +1169,11 @@ public class HomePage extends TestBase {
 	   createHouse.click();
    }
    
+   public void clickOnHouseResidenceMapping(){
+	   hstlLink.click();
+	   houseManagementLink.click();
+	   houseResMappingLink.click();  
+   }
    
    
    
