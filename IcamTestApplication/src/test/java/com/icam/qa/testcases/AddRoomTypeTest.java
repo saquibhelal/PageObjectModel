@@ -6,40 +6,40 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.icam.qa.base.TestBase;
+import com.icam.qa.pages.AddRoomType;
 import com.icam.qa.pages.HomePage;
 import com.icam.qa.pages.LoginPage;
-import com.icam.qa.pages.UpdateHouseCadet;
 
-public class UpdateHouseCadetTest extends TestBase {
-	
+public class AddRoomTypeTest extends TestBase {
+    
 	LoginPage loginPage;
 	HomePage homePage;
-	UpdateHouseCadet upHouCad;
+	AddRoomType adRomTyp;
 	
-	public UpdateHouseCadetTest(){
+	public AddRoomTypeTest(){
 		super();
 	}
 	
 	@BeforeClass
 	public void setUp(){
 		initializationBrowser();
-		upHouCad=new UpdateHouseCadet();
+		adRomTyp=new AddRoomType();
 		loginPage= new LoginPage();
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));	
 	}
 	
 	@Test(priority=1)
-	public void updateHouseCadetTest() throws InterruptedException{
-		homePage.clickOnUpdateHouseCadetLink();
-		upHouCad.updateHouseCadet();
-		System.out.println("=====House Update Successfull====");
+	public void addRoomTypTest() throws InterruptedException{
+		homePage.clickOnAddRoomTypeLink();
+		adRomTyp.addRoomType();
+		System.out.println("======Room Added Successfully=====");
 	}
 	
 	@Test(priority=2)
 	public void validatePage(){
-		String Title=upHouCad.validatePagetTitle();
-		Assert.assertEquals(Title, "Update House For Cadet");
-		System.out.println("=====Landing on the correct page=====");
+		String Title=adRomTyp.validatePagetTitle();
+		Assert.assertEquals(Title, "Add Room Type");
+		System.out.println("=====Landing on the correct Page====");
 	}
 	
 	
@@ -48,6 +48,4 @@ public class UpdateHouseCadetTest extends TestBase {
 		System.out.println("======Browser is shutting down=====\n");
 		//driver.quit();
 	}
-	
-
 }

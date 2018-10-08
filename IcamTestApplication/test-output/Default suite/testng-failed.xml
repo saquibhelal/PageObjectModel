@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.icam.qa.testcases.CreateResidenceTypeTest">
+      <class name="com.icam.qa.testcases.AddRoomTypeTest">
         <methods>
-          <include name="residenceType"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addRoomTypTest"/>
+          <include name="validatePage"/>
         </methods>
-      </class> <!-- com.icam.qa.testcases.CreateResidenceTypeTest -->
+      </class> <!-- com.icam.qa.testcases.AddRoomTypeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

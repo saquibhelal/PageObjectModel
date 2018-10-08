@@ -1184,7 +1184,11 @@ public class HomePage extends TestBase {
 	   updateHouseCadetLink.click();
    }
    
-   
+   public void clickOnAddRoomTypeLink(){
+	   hstlLink.click();
+	   roomType.click();
+	   addRoomType.click(); 
+   }
    
    
    
