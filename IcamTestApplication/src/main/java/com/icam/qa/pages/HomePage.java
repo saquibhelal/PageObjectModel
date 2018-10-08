@@ -518,6 +518,9 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="House Residence Mapping")
     WebElement houseResMappingLink;
+    
+    @FindBy(linkText="Update House of Cadet")
+    WebElement updateHouseCadetLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1174,7 +1177,12 @@ public class HomePage extends TestBase {
 	   houseManagementLink.click();
 	   houseResMappingLink.click();  
    }
-   
+ 
+   public void clickOnUpdateHouseCadetLink(){
+	   hstlLink.click();
+	   houseManagementLink.click();
+	   updateHouseCadetLink.click();
+   }
    
    
    
