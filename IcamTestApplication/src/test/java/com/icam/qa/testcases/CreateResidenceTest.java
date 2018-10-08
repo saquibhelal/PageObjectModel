@@ -1,6 +1,7 @@
 package com.icam.qa.testcases;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -50,6 +51,12 @@ public class CreateResidenceTest extends TestBase {
 		String Title=crRes.validatePageTitle();
 		Assert.assertEquals(Title, "Create Residence");
 		System.out.println("====Landing on the correct Page=====");
+	}
+	
+	@AfterClass
+	public void tearDown(){
+		System.out.println("======Browser is shutting down=====\n");
+		//driver.quit();
 	}
 	
 }
