@@ -506,6 +506,9 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Create Residence Type")
     WebElement createResidenceTypeLink;
+    
+    @FindBy(linkText="Create Residence")
+    WebElement createResidence;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1145,6 +1148,11 @@ public class HomePage extends TestBase {
 	   
    }
    
+   public void clickOnCreateResidenceLink(){
+	   hstlLink.click();
+	   residenceManagementLink.click();
+	   createResidence.click();   
+   }
    
    
    

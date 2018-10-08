@@ -2,28 +2,41 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39360" started-at="2018-10-05T06:40:55Z" finished-at="2018-10-05T06:41:35Z">
+  <suite name="Default suite" duration-ms="38032" started-at="2018-10-08T06:03:20Z" finished-at="2018-10-08T06:03:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39360" started-at="2018-10-05T06:40:55Z" finished-at="2018-10-05T06:41:35Z">
-      <class name="com.icam.qa.testcases.CreateResidenceTypeTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateResidenceTypeTest@42e99e4a]" name="setUp" is-config="true" duration-ms="33723" started-at="2018-10-05T06:40:55Z" finished-at="2018-10-05T06:41:29Z">
+    <test name="Default test" duration-ms="38032" started-at="2018-10-08T06:03:20Z" finished-at="2018-10-08T06:03:58Z">
+      <class name="com.icam.qa.testcases.CreateResidenceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateResidenceTest@14dd9eb7]" name="setUp" is-config="true" duration-ms="29680" started-at="2018-10-08T06:03:20Z" finished-at="2018-10-08T06:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="residenceType()[pri:1, instance:com.icam.qa.testcases.CreateResidenceTypeTest@42e99e4a]" name="residenceType" duration-ms="5447" started-at="2018-10-05T06:41:29Z" finished-at="2018-10-05T06:41:35Z">
+        <test-method status="PASS" signature="createResidenceTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateResidenceTest@14dd9eb7]" name="createResidenceTest" duration-ms="5625" started-at="2018-10-08T06:03:52Z" data-provider="getIcamSheetData" finished-at="2018-10-08T06:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Funct]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- residenceType -->
-        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.CreateResidenceTypeTest@42e99e4a]" name="validatePageTest" duration-ms="37" started-at="2018-10-05T06:41:35Z" finished-at="2018-10-05T06:41:35Z">
+        </test-method> <!-- createResidenceTest -->
+        <test-method status="PASS" signature="validatePageTest()[pri:2, instance:com.icam.qa.testcases.CreateResidenceTest@14dd9eb7]" name="validatePageTest" duration-ms="9" started-at="2018-10-08T06:03:58Z" finished-at="2018-10-08T06:03:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateResidenceTypeTest@42e99e4a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-05T06:41:35Z" finished-at="2018-10-05T06:41:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.CreateResidenceTypeTest -->
+      </class> <!-- com.icam.qa.testcases.CreateResidenceTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
