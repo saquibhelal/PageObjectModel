@@ -38,6 +38,7 @@ public class CreateResidence extends TestBase {
 		return valChck;
 	}
 	
+	
 	public void createResidence(String resNme,String resAbr,String rsc) throws InterruptedException{
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		Thread.sleep(3000);

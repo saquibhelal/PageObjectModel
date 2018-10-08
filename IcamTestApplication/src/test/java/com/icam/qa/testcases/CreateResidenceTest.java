@@ -19,6 +19,7 @@ public class CreateResidenceTest extends TestBase {
 	String sheetName="Residence";
 	
 	
+	
 	public CreateResidenceTest(){
 		super();
 	}
