@@ -521,6 +521,12 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Update House of Cadet")
     WebElement updateHouseCadetLink;
+    
+    @FindBy(linkText="Manage Social Category")
+    WebElement manageSocialCategoryLink;
+    
+    @FindBy(linkText="Social Category")
+    WebElement socialCategoryLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1190,6 +1196,12 @@ public class HomePage extends TestBase {
 	   addRoomType.click(); 
    }
    
+   public void clickOnManageSocialCategoryLink(){
+	   officeAdminLink.click();
+	   manageSocialCategoryLink.click();
+	   socialCategoryLink.click();
+	   
+   }
    
    
 }

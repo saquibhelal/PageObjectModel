@@ -42,7 +42,7 @@
 	      </configuration>    
      </plugin>
      
-     <plugin>
+      <plugin>
              <groupId>org.apache.maven.surefire</groupId>
              <artifactId>surefire</artifactId>
              <version>2.22.0</version>
@@ -53,7 +53,7 @@
 			     </suiteXmlFiles>
 			 </configuration>
      
-     </plugin>
+     </plugin> 
      
       <plugin>
             <groupId>org.apache.maven.plugins</groupId>
