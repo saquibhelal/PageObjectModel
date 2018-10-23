@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31661" started-at="2018-10-23T06:09:24Z" finished-at="2018-10-23T06:09:55Z">
+  <suite name="Default suite" duration-ms="28402" started-at="2018-10-23T09:52:42Z" finished-at="2018-10-23T09:53:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31661" started-at="2018-10-23T06:09:24Z" finished-at="2018-10-23T06:09:55Z">
-      <class name="com.icam.qa.testcases.SchoolNoteTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.SchoolNoteTest@239963d8]" name="setUp" is-config="true" duration-ms="22917" started-at="2018-10-23T06:09:24Z" finished-at="2018-10-23T06:09:47Z">
+    <test name="Default test" duration-ms="28402" started-at="2018-10-23T09:52:42Z" finished-at="2018-10-23T09:53:10Z">
+      <class name="com.icam.qa.testcases.RoleContactMappingListTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.RoleContactMappingListTest@239963d8]" name="setUp" is-config="true" duration-ms="22210" started-at="2018-10-23T09:52:42Z" finished-at="2018-10-23T09:53:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="schooNoteTest()[pri:0, instance:com.icam.qa.testcases.SchoolNoteTest@239963d8]" name="schooNoteTest" duration-ms="8707" started-at="2018-10-23T06:09:47Z" finished-at="2018-10-23T06:09:55Z">
+        <test-method status="PASS" signature="roleMapListTest()[pri:0, instance:com.icam.qa.testcases.RoleContactMappingListTest@239963d8]" name="roleMapListTest" duration-ms="6094" started-at="2018-10-23T09:53:04Z" finished-at="2018-10-23T09:53:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- schooNoteTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.SchoolNoteTest@239963d8]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-23T06:09:55Z" finished-at="2018-10-23T06:09:55Z">
+        </test-method> <!-- roleMapListTest -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:com.icam.qa.testcases.RoleContactMappingListTest@239963d8]" name="validateTitle" duration-ms="8" started-at="2018-10-23T09:53:10Z" finished-at="2018-10-23T09:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.RoleContactMappingListTest@239963d8]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-23T09:53:10Z" finished-at="2018-10-23T09:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.SchoolNoteTest -->
+      </class> <!-- com.icam.qa.testcases.RoleContactMappingListTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

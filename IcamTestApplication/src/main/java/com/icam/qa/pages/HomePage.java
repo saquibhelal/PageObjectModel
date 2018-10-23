@@ -527,6 +527,9 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Social Category")
     WebElement socialCategoryLink;
+    
+    @FindBy(linkText="Role Contact Mapping List")
+    WebElement roleMappingListLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1199,9 +1202,13 @@ public class HomePage extends TestBase {
    public void clickOnManageSocialCategoryLink(){
 	   officeAdminLink.click();
 	   manageSocialCategoryLink.click();
-	   socialCategoryLink.click();
-	   
+	   socialCategoryLink.click();   
    }
    
+   public void clickOnRoleContactMappingListLink(){
+	   systemAdmin.click();
+	   role.click();
+	   roleMappingListLink.click();
+   }
    
 }
