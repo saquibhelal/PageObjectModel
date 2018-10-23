@@ -530,6 +530,12 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Role Contact Mapping List")
     WebElement roleMappingListLink;
+    
+    @FindBy(linkText="Access Type")
+    WebElement accessTypeLink;
+    
+    @FindBy(linkText="Access Type Role Mapping")
+    WebElement accesstypeMapLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1210,5 +1216,12 @@ public class HomePage extends TestBase {
 	   role.click();
 	   roleMappingListLink.click();
    }
+ 
+   public void clickOnAccessTypeRollMapping(){
+	   systemAdmin.click();
+	   accessTypeLink.click();
+	   accesstypeMapLink.click();
+   }
+   
    
 }
