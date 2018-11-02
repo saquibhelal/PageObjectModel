@@ -28,7 +28,7 @@ public class SchoolNoteTest extends TestBase {
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));	
 	}
 	
-	@Test
+	@Test(groups={"regressionTest"},dependsOnGroups={"smokeTest"},priority=1)
 	public void schooNoteTest() throws InterruptedException{
 		homePage.clickOnSchoolNoteLink();
 		schlNote.schoolNote();
@@ -41,4 +41,5 @@ public class SchoolNoteTest extends TestBase {
 		System.out.println("======Browser is shutting down=====>>\n");
 		//driver.quit();
 	}
+	
 }

@@ -36,7 +36,7 @@ public class SchoolNote extends TestBase {
 		desc.sendKeys("HP QTP TESTING");
 		Select select = new Select(recipient);
 		select.selectByVisibleText("Roll");
-		rollNo.sendKeys("99999");
+		rollNo.sendKeys("");
 		boolean b1=driver.findElement(By.xpath("//button[@type='submit']")).isDisplayed();
 		System.out.println(b1);
 		submit.click();

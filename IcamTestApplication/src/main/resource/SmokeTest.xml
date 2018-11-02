@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="iCAM Application Test">
+    <test name="Test">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.icam.qa.testcases.SchoolNoteTest"></class>
+            <class name="com.qa.webiq.Notes"></class>
+        </classes>
+    </test>
+    
+    
+</suite>

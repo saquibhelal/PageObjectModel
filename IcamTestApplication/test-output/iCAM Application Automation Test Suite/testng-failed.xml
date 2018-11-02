@@ -6,20 +6,11 @@
   </listeners>
   <test thread-count="5" name="iCAM Application Test(failed)">
     <classes>
-      <class name="com.icam.qa.testcases.UploadAssignmentTest">
+      <class name="com.qa.webiq.Notes">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="uploadAssignTest"/>
+          <include name="notesTest"/>
         </methods>
-      </class> <!-- com.icam.qa.testcases.UploadAssignmentTest -->
-      <class name="com.icam.qa.testcases.CreateResidenceTypeTest">
-        <methods>
-          <include name="residenceType"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.icam.qa.testcases.CreateResidenceTypeTest -->
+      </class> <!-- com.qa.webiq.Notes -->
     </classes>
   </test> <!-- iCAM Application Test(failed) -->
 </suite> <!-- Failed suite [iCAM Application Automation Test Suite] -->

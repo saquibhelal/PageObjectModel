@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [iCAM Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListner.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="iCAM Application Test(failed)">
     <classes>
       <class name="com.qa.webiq.Notes">
         <methods>
@@ -9,5 +12,5 @@
         </methods>
       </class> <!-- com.qa.webiq.Notes -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- iCAM Application Test(failed) -->
+</suite> <!-- Failed suite [iCAM Application Automation Test Suite] -->
