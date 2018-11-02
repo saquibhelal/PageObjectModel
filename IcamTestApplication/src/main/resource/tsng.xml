@@ -9,8 +9,8 @@
 	<test name="iCAM Application Test">
 	
 		<classes>
-			<class name="com.icam.qa.testcases.CreateResidenceType"></class>
-			<class name="com.icam.qa.testcases.UploadAssignmentTest"></class>	  		
+			<class name="com.icam.qa.testcases.SchoolNoteTest"></class>
+			<class name="com.qa.webiq.Notes"></class>	  		
 		</classes>
 		
 	</test>

@@ -40,7 +40,7 @@ public class AccessTypeRoleMapping extends TestBase {
 		Select select=new Select(rollName);
 		select.selectByVisibleText("ACADEMICS ADMINISTRATOR");
 		//submit.click();
-}
+  }
 	
 	
 	

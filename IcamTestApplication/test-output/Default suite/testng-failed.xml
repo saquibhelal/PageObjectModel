@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.icam.qa.testcases.AccessTypeRollMappingTest">
+      <class name="com.qa.webiq.Notes">
         <methods>
-          <include name="accessRollTypeMap"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="notesTest"/>
         </methods>
-      </class> <!-- com.icam.qa.testcases.AccessTypeRollMappingTest -->
+      </class> <!-- com.qa.webiq.Notes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

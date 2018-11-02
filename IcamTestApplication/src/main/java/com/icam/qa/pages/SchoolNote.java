@@ -19,6 +19,9 @@ public class SchoolNote extends TestBase {
 	@FindBy(xpath=".//select[@id='recipients']")
 	WebElement recipient;
 	
+	@FindBy(xpath="//*[@id='rollNumber']")
+	WebElement rollNo;
+	
 	@FindBy(xpath="//button[@type='submit']")
 	WebElement submit;
 	
@@ -29,10 +32,11 @@ public class SchoolNote extends TestBase {
 	public void schoolNote() throws InterruptedException{
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		Thread.sleep(3000);
-		notes.sendKeys("Testing");
-		desc.sendKeys("Selenium Testing");
+		notes.sendKeys("QTP");
+		desc.sendKeys("HP QTP TESTING");
 		Select select = new Select(recipient);
 		select.selectByVisibleText("Roll");
+		rollNo.sendKeys("99999");
 		boolean b1=driver.findElement(By.xpath("//button[@type='submit']")).isDisplayed();
 		System.out.println(b1);
 		submit.click();
