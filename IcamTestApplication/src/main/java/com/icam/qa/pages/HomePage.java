@@ -536,6 +536,18 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Access Type Role Mapping")
     WebElement accesstypeMapLink;
+    
+    @FindBy(linkText="Create Disciplinary Action")
+    WebElement disciplinaryActionLink;
+    
+    @FindBy(linkText="Create Disciplinary Code")
+    WebElement creteDisciplinaryCodeLink;
+    
+    @FindBy(linkText="Disciplinary Action")
+    WebElement disciplinaryActnLink;
+    
+    @FindBy(linkText="Create Disciplinary Action")
+    WebElement createDiscActionLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -1221,6 +1233,20 @@ public class HomePage extends TestBase {
 	   systemAdmin.click();
 	   accessTypeLink.click();
 	   accesstypeMapLink.click();
+   }
+ 
+   public void clickOnCreateDisciplinaryCodeLink(){
+	   officeAdminLink.click();
+	   disciplinaryActionLink.click();
+	   creteDisciplinaryCodeLink.click();
+   }
+   
+   
+   public void clickOnCreateDisciplinaryActionLink(){
+	   officeAdminLink.click();
+	   disciplinaryActionLink.click();
+	   disciplinaryActnLink.click();
+	  
    }
    
    

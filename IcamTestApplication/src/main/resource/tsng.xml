@@ -9,8 +9,11 @@
 	<test name="iCAM Application Test">
 	
 		<classes>
-			<class name="com.icam.qa.testcases.SchoolNoteTest"></class>
-			<class name="com.qa.webiq.Notes"></class>	  		
+
+			<class name="com.icam.qa.testcases.CreateDisciplinaryCodeTest"></class>
+			<class name="com.qa.webiq.DisciplinaryAction"></class> 
+			
+							  		
 		</classes>
 		
 	</test>

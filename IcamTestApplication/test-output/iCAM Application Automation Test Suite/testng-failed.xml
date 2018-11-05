@@ -6,11 +6,11 @@
   </listeners>
   <test thread-count="5" name="iCAM Application Test(failed)">
     <classes>
-      <class name="com.qa.webiq.Notes">
+      <class name="com.qa.webiq.DisciplinaryAction">
         <methods>
-          <include name="notesTest"/>
+          <include name="disciplinartTest"/>
         </methods>
-      </class> <!-- com.qa.webiq.Notes -->
+      </class> <!-- com.qa.webiq.DisciplinaryAction -->
     </classes>
   </test> <!-- iCAM Application Test(failed) -->
 </suite> <!-- Failed suite [iCAM Application Automation Test Suite] -->

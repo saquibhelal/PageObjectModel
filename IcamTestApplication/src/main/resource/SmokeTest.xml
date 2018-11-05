@@ -9,8 +9,8 @@
             </run>
         </groups>
         <classes>
-            <class name="com.icam.qa.testcases.SchoolNoteTest"></class>
-            <class name="com.qa.webiq.Notes"></class>
+            <class name="com.icam.qa.testcases.CreateEventTest"></class>
+            <class name="com.qa.webiq.Events"></class>
         </classes>
     </test>
     

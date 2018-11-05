@@ -17,6 +17,9 @@ public class StudentAttendance extends TestBase {
 	@FindBy(xpath="//select[@id='sectionone']")
 	WebElement sec;
 	
+	@FindBy(xpath="//*[@id='checkbox_99999']")
+	WebElement chckbx;
+	
 	@FindBy(xpath="//*[@id='allSubmit']")
 	WebElement submit;
 	
@@ -30,10 +33,11 @@ public class StudentAttendance extends TestBase {
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		Thread.sleep(2000);
 		Select select=new Select(standard);
-		select.selectByVisibleText("XI");
+		select.selectByVisibleText("XII");
 		Select select1=new Select(sec);
-		select1.selectByVisibleText("A");
+		select1.selectByVisibleText("B");
 		Thread.sleep(3000);
+		chckbx.click();
 		submit.click();
 	}
 	
