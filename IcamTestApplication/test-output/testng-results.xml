@@ -2,96 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35917" started-at="2018-11-08T07:15:13Z" finished-at="2018-11-08T07:15:49Z">
+  <suite name="Default suite" duration-ms="28789" started-at="2018-11-08T10:12:52Z" finished-at="2018-11-08T10:13:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35917" started-at="2018-11-08T07:15:13Z" finished-at="2018-11-08T07:15:49Z">
-      <class name="com.icam.qa.testcases.CreateNewStudentTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateNewStudentTest@57fffcd7]" name="setUp" is-config="true" duration-ms="24949" started-at="2018-11-08T07:15:15Z" finished-at="2018-11-08T07:15:40Z">
+    <test name="Default test" duration-ms="28789" started-at="2018-11-08T10:12:52Z" finished-at="2018-11-08T10:13:21Z">
+      <class name="com.icam.qa.testcases.CreateRecipientGroupTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateRecipientGroupTest@239963d8]" name="setUp" is-config="true" duration-ms="22516" started-at="2018-11-08T10:12:52Z" finished-at="2018-11-08T10:13:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createStudent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateNewStudentTest@57fffcd7]" name="createStudent" duration-ms="9436" started-at="2018-11-08T07:15:40Z" data-provider="getIcamSheetData" finished-at="2018-11-08T07:15:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1001]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Amit]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Amit]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Mehra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Hindu]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Hindi]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[90929099029]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[917575757575]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Modern High]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[ww.mdnhg.com]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Ballygung Phari]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[918080808080]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[mdn@gmail]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[Medal]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="recipientGroup()[pri:0, instance:com.icam.qa.testcases.CreateRecipientGroupTest@239963d8]" name="recipientGroup" duration-ms="6163" started-at="2018-11-08T10:13:15Z" finished-at="2018-11-08T10:13:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createStudent -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateNewStudentTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-08T07:15:49Z" finished-at="2018-11-08T07:15:49Z">
+        </test-method> <!-- recipientGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateRecipientGroupTest@239963d8]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-08T10:13:21Z" finished-at="2018-11-08T10:13:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.CreateNewStudentTest -->
+      </class> <!-- com.icam.qa.testcases.CreateRecipientGroupTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

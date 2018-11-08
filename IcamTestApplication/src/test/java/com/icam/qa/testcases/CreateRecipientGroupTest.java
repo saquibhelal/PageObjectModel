@@ -23,13 +23,14 @@ public class CreateRecipientGroupTest extends TestBase {
 	public void setUp(){
 		initializationBrowser();
 		loginPage=new LoginPage();
+		recGrp=new CreateRecipientGroup();
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));
 	}
 	
 	@Test
 	public void recipientGroup() throws InterruptedException{
 		homePage.clickOnRecipientGroupLink();
-		recGrp.recipientroup();
+		recGrp.createRecGroup();
 	}
 	
 	@AfterClass

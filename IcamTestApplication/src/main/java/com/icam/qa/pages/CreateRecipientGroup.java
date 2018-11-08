@@ -11,27 +11,29 @@ import com.icam.qa.base.TestBase;
 public class CreateRecipientGroup extends TestBase {
 	
 	// @Author Saquib
-	@FindBy(xpath="//select[@id='category']")
+	
+	@FindBy(css="#category")
 	WebElement catName;
 	
-	@FindBy(xpath="//select[@id='jobTypeCode0']")
-	WebElement recGrp;
+	@FindBy(css="#jobTypeCode0")
+	WebElement recGroup;
 	
-	@FindBy(xpath="//button[@type='submit']")
+	@FindBy(xpath="//button[contains(text(),'Submit')]")
 	WebElement submit;
 	
 	public CreateRecipientGroup(){
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void recipientroup() throws InterruptedException{
+	
+	public void createRecGroup() throws InterruptedException{
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		Select select=new Select(catName);
 		select.selectByVisibleText("APPROVAL OF STUDENT LEAVE");
-		Select select1=new Select(recGrp);
-		select1.selectByVisibleText("LEAVE GROUP");
-		//submit.click();??///This page need to be test.........
+		//Select select1=new Select(recGroup);
+		//select1.selectByVisibleText("");
+		submit.click();
 	}
 
 }
