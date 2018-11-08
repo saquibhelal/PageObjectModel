@@ -25,11 +25,12 @@ public class CreateNewStudentTest extends TestBase {
 	}
 	
 	@BeforeMethod
-	public void setUp(){
+	public void setUp() throws InterruptedException{
 		initializationBrowser();
 		createNewStudents=new CreateNewStudent();
 		loginPage=new LoginPage();
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));
+		homePage.clickOnNewStudent();
 	}
 	
 	@DataProvider
@@ -40,17 +41,11 @@ public class CreateNewStudentTest extends TestBase {
 	
 
 	@Test(priority=1,dataProvider="getIcamSheetData")
-	public void createStudent(String rNo,String fNm,String lNm,String nation,String email,String ftNm,
-			String ltNm,String mtNm,String mlNm,String grdNm,String grdLNm,String addrs,String cities,String pnCode,
-			String dst,String pOffce,String pStation,String prsnIdent,
-			String grAddr,String grCiti,String grDist,String grPof,String grpol
+	public void createStudent(String ScNo,String fNm,String mdNm,String lNm,
+		    String rlgs,String mthtong,String adrNo,String cellNo,String scNm,String wb,String adrs,String phne,String em,String ach
 			) throws InterruptedException{
-		     homePage.clickOnNewStudent();
-		     createNewStudents.createStudent(rNo, fNm, lNm, nation, email, ftNm, ltNm, mtNm,
-				mlNm, grdNm, grdLNm, addrs, cities, pnCode, dst, pOffce, pStation,
-				prsnIdent,grAddr,grCiti,grDist,grPof,grpol);
-		
-		
+		     
+		    createNewStudents.createNewStudent(ScNo,fNm,mdNm,lNm,rlgs,mthtong,adrNo,cellNo,scNm,wb,adrs,phne,em,ach);
 	}
 	
 	@AfterMethod

@@ -1,5 +1,4 @@
 package com.icam.qa.testcases;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -38,16 +37,14 @@ public class CreateCategoryTest extends TestBase {
 	}
 	
 	@Test(priority=1, dataProvider="getIcamSheetData")
-	public void createCat(String ctNm) throws InterruptedException{
-		homePage.clickOnCreateCategoryLink();
+	public void createCategory(String ctNm) throws InterruptedException{
 		createCat.createCategory(ctNm);
-		
 	}
 	
 	
 	@AfterClass
 	public void tearDown(){
 		System.out.println("======Browser is shutting down=====\n");
-		 driver.quit();
+		// driver.quit();
 	}
 }

@@ -29,9 +29,9 @@ public class CreateCategoryRecipient extends TestBase {
 		Thread.sleep(2000);
 		Select select=new Select(catName);
 		select.selectByVisibleText("APPROVAL OF STUDENT LEAVE");
-		Select select1=new Select(recGrup);
-		select1.selectByVisibleText("LEAVE GROUP");
-	//	submit.click();???// This Page need to be Test.......
+		//Select select1=new Select(recGrup);
+		//select1.selectByVisibleText("LEAVE GROUP");
+		submit.click();// This Page need to be Test.......
 	}
 	
 	

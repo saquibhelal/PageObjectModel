@@ -33,10 +33,11 @@ public class CreateCategoryRecipientTest extends TestBase {
 		catRecp.catRecipient();
 	}
 	
+	
 	@AfterClass
 	public void tearDown(){
 		System.out.println("======Browser is shutting down=====\n");
-		 driver.quit();
+		 //driver.quit();
 	}
 
 }
