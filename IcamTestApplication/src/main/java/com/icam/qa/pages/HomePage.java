@@ -947,9 +947,17 @@ public class HomePage extends TestBase {
 	
 	public void clickOnApprovalLink(){
 		officeAdminLink.click();
-		approvalLink.click();
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebElement element = wait.until(
+		ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Approval')]")));
+		element.click();
 		taskConfigurationLink.click();
-		createTaskLink.click();
+		
+		WebDriverWait wait1 = new WebDriverWait(driver, 10);
+		WebElement element1 = wait1.until(
+		ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='menu']/ul/li[12]/ul/li[16]/ul/li/ul/li[1]/a")));
+		element1.click();
+		//createTaskLink.click();
 		
 	}
 	
