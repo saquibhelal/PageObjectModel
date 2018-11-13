@@ -88,6 +88,7 @@ public class EmployeeDetails extends TestBase {
 		firstName.sendKeys(fName);
 		lastName.sendKeys(lName);
 		initialName.sendKeys(iName);
+		contactNumber.clear();
 		contactNumber.sendKeys(cNo);
 		Thread.sleep(2000);
 		Select select1=new Select(category);
@@ -95,8 +96,7 @@ public class EmployeeDetails extends TestBase {
 		nationality.sendKeys(nat);
 		gender.click();
 		Thread.sleep(2000);
-		//driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
-		//checkPoint.click();?? //getting error here.....
+		
 		next.click();
 		Thread.sleep(3000);
 		userId.sendKeys(usrId);
@@ -118,7 +118,7 @@ public class EmployeeDetails extends TestBase {
 		next2.click();
 		next3.click();
 		next4.click();
-		//submit.click();
+		submit.click();
 		
 		return  new EmployeeDetails();
 	}
