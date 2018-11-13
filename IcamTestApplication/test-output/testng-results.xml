@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89948" started-at="2018-11-13T05:23:38Z" finished-at="2018-11-13T05:25:08Z">
+  <suite name="Default suite" duration-ms="26218" started-at="2018-11-13T05:49:14Z" finished-at="2018-11-13T05:49:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89948" started-at="2018-11-13T05:23:38Z" finished-at="2018-11-13T05:25:08Z">
-      <class name="com.icam.qa.testcases.CreateTaskStatusTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateTaskStatusTest@57fffcd7]" name="setUp" is-config="true" duration-ms="79886" started-at="2018-11-13T05:23:38Z" finished-at="2018-11-13T05:24:58Z">
+    <test name="Default test" duration-ms="26218" started-at="2018-11-13T05:49:14Z" finished-at="2018-11-13T05:49:40Z">
+      <class name="com.icam.qa.testcases.CreateTicketStatusTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.CreateTicketStatusTest@57fffcd7]" name="setUp" is-config="true" duration-ms="21844" started-at="2018-11-13T05:49:14Z" finished-at="2018-11-13T05:49:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createTaskStatusTest(java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateTaskStatusTest@57fffcd7]" name="createTaskStatusTest" duration-ms="3857" started-at="2018-11-13T05:25:04Z" data-provider="getIcamSheetData" finished-at="2018-11-13T05:25:08Z">
+        <test-method status="PASS" signature="ticketStatus(java.lang.String)[pri:1, instance:com.icam.qa.testcases.CreateTicketStatusTest@57fffcd7]" name="ticketStatus" duration-ms="2300" started-at="2018-11-13T05:49:38Z" data-provider="getIcamSheetData" finished-at="2018-11-13T05:49:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Open]]>
+                <![CDATA[WIP]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createTaskStatusTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateTaskStatusTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-13T05:25:08Z" finished-at="2018-11-13T05:25:08Z">
+        </test-method> <!-- ticketStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.CreateTicketStatusTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-13T05:49:40Z" finished-at="2018-11-13T05:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.CreateTaskStatusTest -->
+      </class> <!-- com.icam.qa.testcases.CreateTicketStatusTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

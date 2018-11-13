@@ -28,7 +28,7 @@ public class CreateTicketStatusTest extends TestBase{
 		loginPage=new LoginPage();
 		tktStus=new CreateTicketStatus();
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));
-		//homePage.clickOnTicketStatusLink();
+		homePage.clickOnTicketStatusLink();
 	}
 	
 	@DataProvider
@@ -36,10 +36,10 @@ public class CreateTicketStatusTest extends TestBase{
 		Object data[][]=TestUtil.getTestData(sheetName);
 		return data;
 	}
+	
 
 	@Test(priority=1,dataProvider="getIcamSheetData")
 	public void ticketStatus(String tcktName) throws InterruptedException{
-		homePage.clickOnTicketStatusLink();
 		tktStus.ticketStatus(tcktName);
 	}
 	
