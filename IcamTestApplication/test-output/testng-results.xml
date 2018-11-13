@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27980" started-at="2018-11-13T08:27:48Z" finished-at="2018-11-13T08:28:16Z">
+  <suite name="Default suite" duration-ms="28817" started-at="2018-11-13T09:00:33Z" finished-at="2018-11-13T09:01:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27980" started-at="2018-11-13T08:27:48Z" finished-at="2018-11-13T08:28:16Z">
-      <class name="com.icam.qa.testcases.MapRoleContactTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.MapRoleContactTest@239963d8]" name="setUp" is-config="true" duration-ms="18227" started-at="2018-11-13T08:27:48Z" finished-at="2018-11-13T08:28:06Z">
+    <test name="Default test" duration-ms="28817" started-at="2018-11-13T09:00:33Z" finished-at="2018-11-13T09:01:02Z">
+      <class name="com.icam.qa.testcases.UploadAssignmentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icam.qa.testcases.UploadAssignmentTest@239963d8]" name="setUp" is-config="true" duration-ms="19769" started-at="2018-11-13T09:00:33Z" finished-at="2018-11-13T09:00:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="doingMapRoleCntcTest()[pri:0, instance:com.icam.qa.testcases.MapRoleContactTest@239963d8]" name="doingMapRoleCntcTest" duration-ms="9662" started-at="2018-11-13T08:28:06Z" finished-at="2018-11-13T08:28:16Z">
+        <test-method status="PASS" signature="uploadAssignTest()[pri:0, instance:com.icam.qa.testcases.UploadAssignmentTest@239963d8]" name="uploadAssignTest" duration-ms="8999" started-at="2018-11-13T09:00:53Z" finished-at="2018-11-13T09:01:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doingMapRoleCntcTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.MapRoleContactTest@239963d8]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-13T08:28:16Z" finished-at="2018-11-13T08:28:16Z">
+        </test-method> <!-- uploadAssignTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.icam.qa.testcases.UploadAssignmentTest@239963d8]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-13T09:01:02Z" finished-at="2018-11-13T09:01:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.icam.qa.testcases.MapRoleContactTest -->
+      </class> <!-- com.icam.qa.testcases.UploadAssignmentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

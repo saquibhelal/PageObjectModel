@@ -10,15 +10,13 @@ import com.icam.qa.base.TestBase;
 
 public class SalaryBreakUp extends TestBase {
 
+	
 	// @Author Saquib
 	@FindBy(css="#newSalaryBreakUpName")
 	WebElement salaryName;
 	
 	@FindBy(css="#newSalaryBreakUpType")
 	WebElement salaryType;
-	
-	@FindBy(xpath="//input[@value='false']")
-	WebElement slab;
 	
 	@FindBy(css="#submitButton")
 	WebElement submit;
@@ -35,9 +33,8 @@ public class SalaryBreakUp extends TestBase {
 		salaryName.sendKeys(salName);
 		Thread.sleep(4000);
 		Select select = new Select(salaryType);
-		//select.selectByVisibleText("EARNING");??// some problem.....
-		slab.click();
-		//submit.click();
+		select.selectByVisibleText("EARNING");
+		//submit.click();// Some xpath problem.....
 		
 		return new SalaryBreakUp();
 	}
