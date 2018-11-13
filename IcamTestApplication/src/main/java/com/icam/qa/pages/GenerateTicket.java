@@ -17,6 +17,12 @@ public class GenerateTicket extends TestBase {
 	@FindBy(css="#ticketSummary")
 	WebElement summary;
 	
+	@FindBy(css="#status")
+	WebElement status;
+	
+	@FindBy(css="#department")
+	WebElement dep;
+	
 	@FindBy(xpath="//textarea[@name='description']")
 	WebElement description;
 	
@@ -29,11 +35,15 @@ public class GenerateTicket extends TestBase {
 	
 	public GenerateTicket ticketCreation() throws InterruptedException{
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
-		Thread.sleep(4000);
-		Select select=new Select(category);
-		select.selectByVisibleText("LEAVE APPROVAL");
-		//driver.findElement(By.cssSelector("summary")).sendKeys("QA Summery");??
-		//driver.findElement(By.xpath("description")).sendKeys("Testing description");??
+		Thread.sleep(3000);
+		/*Select select=new Select(dep);
+		select.selectByVisibleText("ACADEMICS DEPARTMENT");
+		Select select2=new Select(status);
+		select2.selectByVisibleText("WIP");
+		Select select3=new Select(category);
+		select3.selectByVisibleText("LEAVE APPROVAL");*/
+		driver.findElement(By.cssSelector("#ticketSummary")).sendKeys("QA Summery");
+		driver.findElement(By.xpath("//textarea[@name='description']")).sendKeys("Testing description");
 		//submit.click();
 		
 		return new GenerateTicket();
