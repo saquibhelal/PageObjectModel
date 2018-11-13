@@ -36,8 +36,8 @@ public class AddDesignation extends TestBase{
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		Thread.sleep(4000);
 		 HighlightElement.highLightElement(driver, designType);
-		Select dsgType=new Select(designType);
-		dsgType.selectByVisibleText("GENERAL STAFF");
+		/*Select dsgType=new Select(designType);
+		dsgType.selectByVisibleText("GENERAL STAFF");*/
 		 HighlightElement.highLightElement(driver, desigName);
 		desigName.sendKeys(dsName); 
 		submit.click();

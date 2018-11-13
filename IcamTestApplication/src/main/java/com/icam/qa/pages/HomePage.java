@@ -980,12 +980,27 @@ public class HomePage extends TestBase {
 		ticketStatus.click();
 	}
 	
-	public void clickOnTaskStatusLink(){
+	  public void clickOnTaskStatusLink(){
+		  officeAdminLink.click();
+		  WebDriverWait wait = new WebDriverWait(driver, 10);
+			WebElement element1 = wait.until(
+			ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Approval')]")));
+			element1.click();
+		 // approvalLink.click();
+		  taskConfigurationLink.click();
+		  taskStatus.click();
+		  
+	  }
+	
+	/*public void clickOnTaskStatusLink(){
 		officeAdminLink.click();
-		approvalLink.click();
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebElement element1 = wait.until(
+		ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Approval')]")));
+		element1.click();
 		taskConfigurationLink.click();
 		taskStatus.click();
-	}
+	}*/
 	
 	public void clickOnRecipientGroupLink(){
 		officeAdminLink.click();
@@ -994,7 +1009,6 @@ public class HomePage extends TestBase {
 		WebElement element1 = wait.until(
 		ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Approval')]")));
 		element1.click();
-		//approvalLink.click();
 		taskConfigurationLink.click();
 		recipentGroup.click();
 	}

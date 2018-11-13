@@ -8,28 +8,33 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.icam.qa.base.TestBase;
 
-public class CreateTaskStatus extends TestBase {
-
-	// @Author Saquib
-	@FindBy(xpath="//input[@id='taskStatus']")
-	WebElement taskStatus;
+public class CreateTaskStatus extends TestBase{
 	
-	@FindBy(xpath="//select[@id='status']")
-	WebElement tcStatus;
 	
-	@FindBy(xpath="//input[@type='button']")
-	WebElement submit;
+	@FindBy(css="#taskStatus")
+	WebElement tsStatus;
+	
+	@FindBy(css="#status")
+	WebElement status;
+	
+	@FindBy(css=".btn.btn-primary")
+    WebElement submit;
 	
 	public CreateTaskStatus(){
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void taskStatus(String tskSts) throws InterruptedException{
+	public void taskStatuseCreation(String tStatus) throws InterruptedException{
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
-		Thread.sleep(2000);
-		taskStatus.sendKeys(tskSts);
-		Select select=new Select(tcStatus);
-		select.selectByVisibleText("OPEN");
-		//submit.click();??// This page need to test..........
+		Thread.sleep(3000);
+		tsStatus.sendKeys(tStatus);
+		Select select=new Select(status);
+		select.selectByVisibleText("");
+		submit.click();
+		
+		
 	}
+	
+	
+	
 }
