@@ -2,6 +2,7 @@ package com.icam.qa.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -40,8 +41,10 @@ public class MapRoleContact extends TestBase {
 		select1.selectByVisibleText("TEACHING STAFF");
 		Thread.sleep(2000);
 		//driver.findElement(By.cssSelector("#userId0")).sendKeys("anup.roy");??// use action to select userId
-		drp.click();
-		//submit.click();
+		/*Actions action=new Actions(driver);
+		action.moveToElement(driver.findElement(By.xpath(""))).build().perform();*/
+		//drp.click();
+		submit.click();
 		return new MapRoleContact();
 	}
 }

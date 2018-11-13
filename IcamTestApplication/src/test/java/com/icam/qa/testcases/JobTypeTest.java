@@ -32,7 +32,7 @@ public class JobTypeTest extends TestBase {
 		loginPage= new LoginPage();
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));
 		homePage.navigateToJobTypeLink();
-		driver.switchTo().frame("frame"); 
+		
 	}
 	
 	@DataProvider
@@ -44,25 +44,19 @@ public class JobTypeTest extends TestBase {
 	
 	@Test(dataProvider="getIcamSheetData",priority=1)
 	public void createJobTypeTest(String jobNm) throws InterruptedException{
+		driver.switchTo().frame("frame"); 
 		jbType.createJobType(jobNm);
-		jbType.getTextByRowColNum(6, 1, "FF");
+		driver.navigate().refresh();
+		homePage.navigateToJobTypeLink();
+
+		//jbType.getTextByRowColNum(6, 1, "FF");
 	}
-	
-	@AfterTest
-	public void cc()
-	{
-		System.out.println("Test Completed");
-	}
-	
-	
-	
-	
 	
 	/*@Test(priority=2, dataProvider="getIcamSheetData")
 	public void createJobTypeTest(String jobNm) throws InterruptedException{
 		homePage.clickOnJobTypeLink();
 		jbType.createjobType(jobNm);
-		Assert.assertTrue(true, "Added in the List");// is this correct to check the value , where is the list
+		Assert.assertTrue(true, "Added in the List");
 	}*/
 	
 	
@@ -73,8 +67,5 @@ public class JobTypeTest extends TestBase {
 		System.out.println("======Browser is shutting down=====\n");
 		//driver.quit();
 	}
-	
-	
-	
 
 }

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.icam.qa.testcases.GenerateTicketTest">
+      <class name="com.icam.qa.testcases.MapRoleContactTest">
         <methods>
-          <include name="setUp"/>
-          <include name="generatingTicketTest"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="doingMapRoleCntcTest"/>
         </methods>
-      </class> <!-- com.icam.qa.testcases.GenerateTicketTest -->
+      </class> <!-- com.icam.qa.testcases.MapRoleContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
