@@ -38,12 +38,10 @@ public class EmployeeDetailsTest extends TestBase {
 	
 	
 	@Test(priority=1, dataProvider="getIcamSheetData")
-	public void employeeCreationTest(String fnm,String lnm,String inm,String cn,String em,String rlg,
-			String nt,String lng,String ffnm,String flnm,String mnm,String lmnm,String adr,String ct,
-			String pncd,String ecd) throws InterruptedException{
+	public void employeeCreationTest(String fnm,String lnm,String inm,String cn,
+			String nt,String usId) throws InterruptedException{
 		homePage.clickOnEnterEmployeeDetailsLink();
-		empDtls.employeecreation(fnm, lnm, inm, cn, em, rlg, nt, lng, ffnm, flnm, mnm, lmnm,
-		 		adr, ct, pncd, ecd);
+		empDtls.employeecreation(fnm, lnm, inm, cn, nt,usId);
 	}
 		
 	@AfterMethod
