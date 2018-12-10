@@ -16,6 +16,8 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import com.icam.qa.util.TestUtil;
 import com.icam.qa.util.WebEventListner;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 //@Author Saquib
 public class TestBase {
 	
@@ -48,18 +50,21 @@ public class TestBase {
 		String browserName=Pro.getProperty("browser");
 		
 		if(browserName.equalsIgnoreCase("chrome")){
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Desktop\\Selnium_Repos\\drivers"
-					+ "\\chromedriver_win32\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
+			/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Desktop\\Selnium_Repos\\drivers"
+					+ "\\chromedriver_win32\\chromedriver.exe");*/
 			    driver=new ChromeDriver();	
 		}
 		else if(browserName.equalsIgnoreCase("FF")){
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\User\\Desktop\\Selnium_Repos\\drivers\\"
-					+ "geckodriver-v0.19.1-win32\\geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
+			/*System.setProperty("webdriver.gecko.driver", "C:\\Users\\User\\Desktop\\Selnium_Repos\\drivers\\"
+					+ "geckodriver-v0.19.1-win32\\geckodriver.exe");*/
      			driver=new FirefoxDriver();
 		}
 		else if(browserName.equalsIgnoreCase("IE")){
-			System.setProperty("webdriver.IE.driver", "C:\\Users\\User\\Desktop\\Selnium_Repos\\drivers\\"
-					+ "IEDriverServer_Win32_3.9.0\\IEDriverServer.exe");
+			WebDriverManager.iedriver().setup();
+			/*System.setProperty("webdriver.IE.driver", "C:\\Users\\User\\Desktop\\Selnium_Repos\\drivers\\"
+					+ "IEDriverServer_Win32_3.9.0\\IEDriverServer.exe");*/
 			    driver=new InternetExplorerDriver();
 		}
 		
