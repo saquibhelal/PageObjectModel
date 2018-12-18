@@ -33,6 +33,7 @@ public class DisciplinaryActionTest extends TestBase{
 	public void pageValidateTest(){
 		String title=discActn.validatePageTitle();
 		Assert.assertEquals("Disciplinary Action", title,"Assertion pass Landing on the correct page---->");
+		
 	}
 	
 	@Test
