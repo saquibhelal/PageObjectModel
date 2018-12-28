@@ -37,7 +37,7 @@ public class StudentAchievement extends TestBase{
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		Thread.sleep(3000);
 		Select select=new Select(event);
-		select.selectByVisibleText("EVENT TEST");
+		select.selectByVisibleText("TESTINGGG");
 		evntPos.sendKeys(evPos);
 		student.sendKeys(std);
 		//submit.click();

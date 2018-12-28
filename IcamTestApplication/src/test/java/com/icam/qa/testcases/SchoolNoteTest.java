@@ -28,7 +28,7 @@ public class SchoolNoteTest extends TestBase {
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));	
 	}
 	
-	@Test(groups={"regressionTest"},dependsOnGroups={"smokeTest"},priority=1)
+	@Test()
 	public void schooNoteTest() throws InterruptedException{
 		homePage.clickOnSchoolNoteLink();
 		schlNote.schoolNote();

@@ -37,9 +37,9 @@ public class CreateEvent extends TestBase {
 		desc.sendKeys(evnDes);
 		//chck.click();
 		JavascriptExecutor js=(JavascriptExecutor)driver;
-		js.executeScript("document.getElementById('eventStartDate').value='15/04/2018'");
+		js.executeScript("document.getElementById('eventStartDate').value='22/12/2018'");
 		JavascriptExecutor js1=(JavascriptExecutor)driver;
-		js1.executeScript("document.getElementById('eventEndDate').value='18/04/2018'");
+		js1.executeScript("document.getElementById('eventEndDate').value='25/12/2018'");
 		incharge.sendKeys(inc);
 		//submit.click();
 		

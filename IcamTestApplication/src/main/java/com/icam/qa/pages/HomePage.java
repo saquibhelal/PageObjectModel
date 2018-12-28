@@ -18,8 +18,8 @@ public class HomePage extends TestBase {
 	//@FindBy(xpath="html/body/div[1]/div[2]/div[1]/section/div/section/div/div/div[1]/label[2]")
 	WebElement userNameLabel;
 	
-	@FindBy(xpath="//span[contains(text(),'Academics')]") public 
-	WebElement academicLink;
+	@FindBy(xpath="//span[contains(text(),'Academics')]") 
+	public WebElement academicLink;
 	
 	@FindBy(xpath="//a[contains(text(),'Courses')]")
 	public WebElement courseLink;
@@ -672,13 +672,14 @@ public class HomePage extends TestBase {
 		return new MapTeacherClass();
 	}
 
-	public UploadResult clickOnUploadResultLink(){
+	public void clickOnUploadResultLink(){
 		academicLink.click();
 		exam.click();
 		newSystem.click();
 		upldRes.click();
-		return new UploadResult();
+		
 	}
+	
 	
 	public EmployeeDetails clickOnEnterEmployeeDetailsLink(){
 		payrollLink.click();

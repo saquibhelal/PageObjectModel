@@ -38,7 +38,7 @@ public class StudentAttendance extends TestBase {
 		select1.selectByVisibleText("B");
 		Thread.sleep(3000);
 		chckbx.click();
-		submit.click();
+		//submit.click();
 	}
 	
 	

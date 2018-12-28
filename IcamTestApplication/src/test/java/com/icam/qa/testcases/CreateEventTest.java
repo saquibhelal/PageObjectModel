@@ -28,6 +28,8 @@ public class CreateEventTest extends TestBase {
 		event=new CreateEvent();
 		loginPage= new LoginPage();
 		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password"));
+		homePage.clickOnCreateEventLink();
+
 	}
 	
 	@DataProvider
@@ -38,13 +40,11 @@ public class CreateEventTest extends TestBase {
 	
 	@Test(priority=1,dataProvider="getIcamSheetData")
 	public void eventCreationTest(String evNm,String evDs,String evIn) throws InterruptedException{
-		homePage.clickOnCreateEventLink();
 		event.eventCreation(evNm, evDs, evIn);
-		TestBase.driver.navigate().refresh();
+		//TestBase.driver.navigate().refresh();
 		System.out.println("Event created sucessfully..........");
 	}
 	
-    
 	@AfterClass
 	public void tearDown(){
 		System.out.println("======Browser is shutting down=====\n");

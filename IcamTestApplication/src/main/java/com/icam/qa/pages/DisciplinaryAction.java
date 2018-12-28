@@ -40,7 +40,7 @@ public class DisciplinaryAction extends TestBase {
 		Select select1=new Select(sec);
 		select1.selectByVisibleText("B");
 		Select select2=new Select(rollNo);
-		select2.selectByVisibleText("99999-FIRST DATA DATA");
+		select2.selectByVisibleText("99999-RAAMM SHAAMM");
 		Select select3=new Select(disCode);
 		select3.selectByVisibleText("CD3003");
 		comment.sendKeys("Disciplinary Action Testing");

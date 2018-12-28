@@ -1,5 +1,6 @@
 package com.icam.qa.testcases;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -25,19 +26,23 @@ public class UploadResultTest extends TestBase {
 	public void setUp(){
 		initializationBrowser();
 		upRslt=new UploadResult();
-		loginPage= new LoginPage();
-		homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password")); 
+		//loginPage= new LoginPage();
+		//homePage=loginPage.login(Pro.getProperty("username"), Pro.getProperty("password")); 
+		driver.findElement(By.xpath("//input[@name='userId']")).sendKeys("ssp_rt");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("9331927704");
+		driver.findElement(By.xpath("html/body/section/div/div[3]/div/div/div[2]/form/div[3]/div[2]/button[1]")).click();
+		homePage.clickOnUploadResultLink();
 	}
 	
 	
 	@DataProvider
 	public Object[][] getIcamSheetData(){
-		Object data[][]=TestUtil.getTestData(sheetName);
+		Object data[][]=TestUtil.getTestData(sheetName);// get the value from sheet 
 		return data;
 	}
 	@Test(priority=1,dataProvider="getIcamSheetData")
 	public void uploadingResultTest(String mrk) throws InterruptedException{
-		homePage.clickOnUploadResultLink();
+		
 		upRslt.resultupload(mrk);
 	}
 	

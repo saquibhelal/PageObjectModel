@@ -42,14 +42,14 @@ public class UploadResult extends TestBase {
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		Thread.sleep(4000);
 		Select select=new Select(uploadResult);
-		select.selectByVisibleText("VII");
+		select.selectByVisibleText("XII");
 		Thread.sleep(2000);
 		Select select1=new Select(termName);
 		Thread.sleep(2000);
-		select1.selectByVisibleText("Term1");
+		select1.selectByVisibleText("Periodic Test");
 		Select select2=new Select(section);
 		Thread.sleep(2000);
-		select2.selectByVisibleText("A");
+		select2.selectByVisibleText("B");
 		Select select3=new Select(subject);
 		Thread.sleep(2000);
 		select3.selectByVisibleText("ENGLISH");
