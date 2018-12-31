@@ -552,6 +552,15 @@ public class HomePage extends TestBase {
     
     @FindBy(linkText="Create Disciplinary Action")
     WebElement createDiscActionLink;
+    
+    @FindBy(linkText="Exam & Result")
+	WebElement examAndresultlink;
+    
+    @FindBy(linkText="New System")
+	WebElement newSystemLink;
+    
+    @FindBy(linkText="Upload Result")
+	WebElement uploadResultLink;
 	/***************************************************************************************************************/
 	
 	public HomePage(){
@@ -672,12 +681,20 @@ public class HomePage extends TestBase {
 		return new MapTeacherClass();
 	}
 
-	public void clickOnUploadResultLink(){
+	/*public void clickOnUploadResultLink(){
 		academicLink.click();
 		exam.click();
 		newSystem.click();
 		upldRes.click();
 		
+	}*/
+	
+	public UploadResult clickOnUploadResultLink(){
+		academicLink.click();
+		examAndresultlink.click();
+		newSystemLink.click();
+		uploadResultLink.click();
+		return new UploadResult();
 	}
 	
 	

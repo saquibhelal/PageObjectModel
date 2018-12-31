@@ -41,7 +41,12 @@ public class CreateEvent extends TestBase {
 		JavascriptExecutor js1=(JavascriptExecutor)driver;
 		js1.executeScript("document.getElementById('eventEndDate').value='25/12/2018'");
 		incharge.sendKeys(inc);
+		String tagName=submit.getTagName();
+		System.out.println("Submit button location is:"+submit.getLocation());
+		
+		System.out.println("----------Tag Name-------"+tagName);
 		//submit.click();
+		
 		
 	}
 	

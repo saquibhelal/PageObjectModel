@@ -50,7 +50,7 @@ public class AddCommodity extends TestBase {
 		select2.selectByVisibleText("PIECE");
 		threshold.sendKeys(comThres);
 		submit.click();
-		
+	
 		return new AddCommodity();
 	}
 	
