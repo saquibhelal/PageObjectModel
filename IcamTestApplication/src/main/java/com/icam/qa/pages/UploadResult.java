@@ -57,6 +57,8 @@ public class UploadResult extends TestBase {
 		select4.selectByVisibleText("Periodic Test");
 		theory.sendKeys(rst);
 		//submit.click();
+		String tagName=submit.getTagName();
+		System.out.println("Tage Name of Submit Button is:"+tagName);
 		return new UploadResult();
 	}
 	
