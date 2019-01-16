@@ -1,5 +1,7 @@
 package com.icam.qa.util;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
@@ -51,12 +53,12 @@ public class WebEventListner extends TestBase implements WebDriverEventListener 
 	}
 
 	public void onException(Throwable error, WebDriver driver) {
-		/*System.out.println("Exception occured: " + error);
+		System.out.println("Exception occured: " + error);
 		try {
 			TestUtil.takeScreenshotAtEndOfTest();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}*/
+		}
 	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
@@ -77,62 +79,62 @@ public class WebEventListner extends TestBase implements WebDriverEventListener 
 	}
 
 	public void beforeAlertAccept(WebDriver driver) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 	public void afterAlertAccept(WebDriver driver) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 	public void afterAlertDismiss(WebDriver driver) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 	public void beforeAlertDismiss(WebDriver driver) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 	public void beforeNavigateRefresh(WebDriver driver) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 	public void afterNavigateRefresh(WebDriver driver) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 	public void afterChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 	public void beforeSwitchToWindow(String windowName, WebDriver driver) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	public void afterSwitchToWindow(String windowName, WebDriver driver) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	public <X> void beforeGetScreenshotAs(OutputType<X> target) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	public <X> void afterGetScreenshotAs(OutputType<X> target, X screenshot) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 

@@ -55,6 +55,7 @@ public class AddDepartmentTest extends TestBase {
 		SoftAssert softassert=new SoftAssert();
 		softassert.assertEquals("Add Department", title);
 		softassert.assertAll();
+		
 		System.out.println("======You are Landing on the Correct Page======");
 		//Assert.
 	}

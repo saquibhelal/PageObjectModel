@@ -98,7 +98,6 @@
 			<version>3.17-beta1</version>
 		</dependency>
 
-
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
@@ -159,11 +158,19 @@
 
 		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
        
-       <dependency>
+        <dependency>
          <groupId>com.relevantcodes</groupId>
          <artifactId>extentreports</artifactId>
-         <version>2.41.2</version>
-      </dependency>
+          <version>2.41.2</version>
+      </dependency> 
+      
+      <!-- <dependency>
+         https://mvnrepository.com/artifact/com.aventstack/extentreports
+
+        <groupId>com.aventstack</groupId>
+        <artifactId>extentreports</artifactId>
+        <version>3.0.0</version>
+	 </dependency> -->
     
   </dependencies>
 </project>

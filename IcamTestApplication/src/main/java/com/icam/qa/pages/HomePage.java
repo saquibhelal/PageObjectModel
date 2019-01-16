@@ -681,22 +681,19 @@ public class HomePage extends TestBase {
 		return new MapTeacherClass();
 	}
 
-	/*public void clickOnUploadResultLink(){
-		academicLink.click();
-		exam.click();
-		newSystem.click();
-		upldRes.click();
-		
-	}*/
 	
-	public UploadResult clickOnUploadResultLink(){
+	@FindBy(linkText="Exam & Result")
+	WebElement examResult;
+	@FindBy(linkText="New System")
+	WebElement newsystem;
+	@FindBy(linkText="Upload Result")
+	WebElement uplodResultLink;
+	public void clickOnUploadResultLink(){
 		academicLink.click();
-		examAndresultlink.click();
-		newSystemLink.click();
-		uploadResultLink.click();
-		return new UploadResult();
+		examResult.click();
+		newsystem.click();
+		uplodResultLink.click();
 	}
-	
 	
 	public EmployeeDetails clickOnEnterEmployeeDetailsLink(){
 		payrollLink.click();
